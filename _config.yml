@@ -1,2 +1,11 @@
+defaults:
+  -
+    scope:
+      path: "sitemap.xml"
+    values:
+      layout: null
+      sitemap: false
+
 plugins:
   - jekyll-sitemap
+  

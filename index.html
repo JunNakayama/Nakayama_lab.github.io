@@ -1,536 +1,830 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>金沢大学がん進展制御研究所 細胞情報学研究分野: Cell Signaling and Informatics, Kanazawa University Cancer Research Institute</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-X4B2GEVSRH"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="金沢大学がん進展制御研究所 細胞情報学研究分野（中山研究室）。シグナル伝達・オミクス・AIを融合し、がん転移・休眠の分子機構解明と新規治療法の開発を推進。">
+  <title>細胞情報学研究分野 | 金沢大学がん進展制御研究所</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Serif+Display:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-        gtag('config', 'G-X4B2GEVSRH');
-      </script>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">金沢大学がん進展制御研究所 細胞情報学研究分野</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#news">News</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#JunNakayama">Jun Nakayama</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ResearchInterests">Research Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Member">Member</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Publications">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Links">Links</a></li>
-                </ul>
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="site-header" id="page-top">
+    <div class="header-inner">
+      <a href="#page-top" class="site-logo">
+        <span class="logo-en">Cell Signaling &amp; Informatics</span>
+        <span class="logo-ja">金沢大学がん進展制御研究所</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#news" class="nav-link">News</a>
+        <a href="#research" class="nav-link">Research</a>
+        <a href="#member" class="nav-link">Member</a>
+        <a href="#publications" class="nav-link">Publications</a>
+        <a href="#links" class="nav-link">Links</a>
+        <a href="mailto:jnakayama@staff.kanazawa-u.ac.jp" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        金沢大学がん進展制御研究所 細胞情報学研究分野
+      </div>
+      <h1 class="hero-title">
+        <em>細胞の性質とことば</em>を読み解いて、<br>
+        がんの本質を理解する。
+      </h1>
+      <p class="hero-sub">Division of Cell Signaling and Informatics — Nakayama Lab</p>
+      <p class="hero-desc">
+        シグナル伝達・データサイエンス・オミクス解析を融合し、がん転移・休眠・不均一性の分子メカニズムを解明する。WET実験とDRY解析の両輪で、基礎から臨床へつながる研究を推進します。
+      </p>
+      <div class="hero-ctas">
+        <a href="#research" class="btn btn-primary">研究内容</a>
+        <a href="#publications" class="btn btn-secondary">Publications</a>
+        <a href="#join" class="btn btn-secondary">大学院進学を検討中の方へ</a>
+      </div>
+    </div>
+    <div class="hero-deco" aria-hidden="true"></div>
+  </section>
+
+  <!-- ========== STATS BAR ========== -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-num">48</span>
+      <span class="stat-label">論文数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">18</span>
+      <span class="stat-label">競争的資金獲得件数</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">12</span>
+      <span class="stat-label">受賞歴</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">15+</span>
+      <span class="stat-label">共同研究機関・研究室</span>
+    </div>
+  </div>
+
+  <!-- ========== RESEARCH ========== -->
+  <section class="section" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Research</span>
+        <div class="section-line"></div>
+      </div>
+      <h2 class="section-title">3つの研究の柱</h2>
+      <p class="section-lead">「どのようながん細胞」が「どの臓器」に「どの遺伝子を利用」して転移し、「どのような細胞」と「どのような情報交換」を行なっているのかを解き明かします。WET実験とDRY解析を組み合わせた独自の研究体制を構築しています。</p>
+
+      <div class="pillars">
+        <div class="pillar-card">
+          <div class="pillar-icon">🔬</div>
+          <h3 class="pillar-title">転移におけるがん細胞増殖・休眠の分子機構</h3>
+          <p class="pillar-desc">
+            オリジナルのin vivo selection法で樹立した高転移株やin vitro Dormant assayを用いて、がん転移・休眠の制御遺伝子を同定する。休眠制御（がん休眠療法）や転移治療法の確立を目指しています。
+          </p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">🧬</div>
+          <h3 class="pillar-title">オミクス　&amp;　シングルセル &amp; 空間</h3>
+          <p class="pillar-desc">
+            1細胞RNA-seq（scRNA-seq）・空間トランスクリプトーム（Visium等）とオリジナル解析アルゴリズムを活用し、腫瘍内不均一性・転移シグナルを1細胞レベルで解読します。
+          </p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon">💻</div>
+          <h3 class="pillar-title">データサイエンス &amp; AI</h3>
+          <p class="pillar-desc">
+            公共データベースを大規模活用する基盤を構築し、データサイエンス・機械学習で新たな知見を創出します。さらにAIとの融合により医療応用に向けた技術開発も推進しています。
+          </p>
+        </div>
+      </div>
+
+      <div class="research-image-wrap">
+        <img src="assets/img/Research.png" alt="研究概要図" class="research-img" loading="lazy">
+      </div>
+
+      <div class="research-topics">
+        <div class="topic-block">
+          <h3 class="topic-title">Metastasis — シグナル伝達とオミクス解析</h3>
+          <p>がん転移とは、がん細胞が原発巣から血液・リンパ液・腹水などに播種された後に遠隔臓器に生着し、新たな主要組織を形成しながら増殖する現象です。転移が見つかると、臨床ではステージ4とみなされる段階であり、予後や治療方針に大きな影響を与えます。またがん転移は局所浸潤・血管リンパ管新生・循環系内での生存・遠位臓器への浸潤・微小転移の形成・転移コロニーの形成という複数ステップで成立する非常に複雑な機構です。私達の研究室では、細胞内・細胞外・細胞間のシグナル伝達に着目して、がん細胞がどのようにして転移能を獲得するのかを明らかにすることを目的として研究しています。</p>
+        </div>
+        <div class="topic-block">
+          <h3 class="topic-title">Dormancy — 細胞休眠の分子機構</h3>
+          <p>がんにおける休眠とは、がん転移の過程や薬剤応答によって引き起こされる現象であり、【1】可逆的なG0期に留まっており【2】代謝状態が落ちている状態で、数カ月から数十年という長い期間その局所に留まっている状態を指します。特に乳がんにおいては、転移先臓器に播種したがん細胞の多くは休眠状態にあり、転移再発の主因である休眠現象の理解と克服が重要な課題の一つです。私達は独自のin vitro Dormant assayを用いて、乳がん細胞における休眠メカニズムの解明と休眠誘導薬の探索を行っています。</p>
+        </div>
+        <div class="topic-block">
+          <h3 class="topic-title">Data Science — 先端オミクス解析技術とAI</h3>
+          <p>現在の生命科学は、オミクス解析の発展に伴って膨大な情報を取り扱う情報科学的側面が強くなっています。私達は特に1細胞レベルの解析に着目して、データ収集および統合解析を行っています。さらに1細胞情報と臨床情報を組み合わせた「1細胞メタ解析」の技術基盤構築にも取り組んでいます。「DRY解析による仮説・モデルの提案」と「WET実験による実証」を実施することが研究体制として確立されています。</p>
+        </div>
+      </div>
+
+      <div class="ongoing-themes">
+        <h3 class="ongoing-title">現在進行中の研究テーマ</h3>
+        <ol class="theme-list">
+          <li>大規模薬剤スクリーニングによる休眠制御薬の探索と分子メカニズムの解明</li>
+          <li>がん休眠細胞の形態解析と判別AIの開発</li>
+          <li>1細胞RNA-seq解析および空間トランスクリプトーム解析によるがん転移メカニズムの解明</li>
+          <li>CRISPR screeningによる休眠制御遺伝子の探索</li>
+          <li>細胞間伝達物質の網羅解析技術の開発とニッチ解析</li>
+          <li>構造転写因子を介したがん幹細胞性のエピジェネティック制御と腫瘍内不均一性の解明</li>
+          <li>クローン選択に関わる遺伝子の探索と競合性の評価</li>
+          <li>データサイエンス手法を応用した新たな不均一性定量解析手法の開発</li>
+          <li>SNPs解析を通した免疫シグナル異常の解明と遺伝的背景の理解</li>
+          <li>有機合成化学との融合研究による新規シーズ化合物の創製と抗がん/抗疼痛研究</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWS ========== -->
+  <section class="section section-alt" id="news">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">News</span>
+        <div class="section-line"></div>
+      </div>
+      <h2 class="section-title">最新情報</h2>
+
+      <div class="news-list">
+
+        <div class="news-item">
+          <span class="news-date">2026.4.1</span>
+          <span class="news-badge badge-news">お知らせ</span>
+          <p class="news-text">金沢大学がん進展制御研究所に着任しました。細胞情報学研究分野にて、がん転移におけるシグナル伝達・オミクス解析を駆使し、転移・休眠の分子機構解明・新規治療法の開発を目指して研究を行っていきます。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2026.3.27</span>
+          <span class="news-badge badge-paper">論文 #47</span>
+          <p class="news-text">慶応義塾大学・東海大学など複数施設の共同研究成果がJournal of Extracellular Vesicles誌に掲載されました。細菌由来EVsの機能解析とがんとの関係性について明らかにしました。<em class="news-journal">Journal of Extracellular Vesicles</em></p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2026.3.25</span>
+          <span class="news-badge badge-news">お知らせ</span>
+          <p class="news-text">愛媛大学プロテオインタラクトーム解析共同研究拠点　2026年度共同利用・共同研究課題に、中山が採択されました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2026.3.23</span>
+          <span class="news-badge badge-award">受賞・助成</span>
+          <p class="news-text">公益財団法人大阪対がん協会 2025年度がん研究助成奨励金、公益財団法人がん研究振興財団　令和7年度がん研究助成金Ⅰに明果瑠-安岡が採択されました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2026.2.27</span>
+          <span class="news-badge badge-award">受賞・助成</span>
+          <p class="news-text">2026年度 日本学術振興会科学研究費基金 基盤研究(B)（研究代表者：中山淳）、若手研究（研究代表者：明果瑠-安岡いるま）に採択されました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2026.2.6</span>
+          <span class="news-badge badge-conf">学会・セミナー</span>
+          <p class="news-text">関西医科大学 大学院講義・がんプロセミナーにて、中山が発表しました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2026.1.24</span>
+          <span class="news-badge badge-paper">論文 #46</span>
+          <p class="news-text">国立がん研究センター研究所・東京慈恵会医科大学との共同研究成果がnpj Precision Oncology誌に掲載されました。肺扁平上皮がんと肺腺癌におけるCancer-associated Fibroblasts(CAFs)の多様性について、1細胞メタ解析を用いて明らかにしました。<em class="news-journal">npj Precision Oncology</em></p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2026.1.21</span>
+          <span class="news-badge badge-conf">学会・セミナー</span>
+          <p class="news-text">第25回複雑生命系秩序懇談会定例会にて、中山が発表しました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.12.18</span>
+          <span class="news-badge badge-paper">論文 #45</span>
+          <p class="news-text">関西医科大学との共同研究成果がInternational Journal of Molecular Sciences誌に掲載されました。卵巣がんのanoikis耐性および腹膜播種におけるRNF126の機能について明らかにしました。<em class="news-journal">International Journal of Molecular Sciences</em></p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.12.3–5</span>
+          <span class="news-badge badge-conf">学会・セミナー</span>
+          <p class="news-text">第48回日本分子生物学会にて、明果瑠-安岡、堀口が発表しました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.11.14</span>
+          <span class="news-badge badge-paper">論文 #44</span>
+          <p class="news-text">早稲田大学との共同研究成果がGenes to Cells誌に掲載されました。乳がん細胞におけるTIE1の機能と悪性化機構を明らかにしました。<em class="news-journal">Genes to Cells</em></p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.11.8–9</span>
+          <span class="news-badge badge-conf">学会・セミナー</span>
+          <p class="news-text">第9回転移シグナル若手研究会にて、中山、明果瑠-安岡が発表しました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.10.27</span>
+          <span class="news-badge badge-news">お知らせ</span>
+          <p class="news-text">サイトオープンしました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.9.25–27</span>
+          <span class="news-badge badge-conf">学会・セミナー</span>
+          <p class="news-text">第84回日本癌学会学術総会にて、中山、明果瑠-安岡が発表しました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.9.3–5</span>
+          <span class="news-badge badge-award">受賞</span>
+          <p class="news-text">2025年文部科学省 学術変革領域研究 学術研究支援基盤形成 先端モデル動物支援プラットフォーム（AdAMS）若手支援技術講習会にて、中山、明果瑠-安岡が発表しました。中山（ベストプレゼンター賞 口頭発表）、明果瑠-安岡（ベストプレゼンター賞　ポスター賞、きっかり3分間トーク賞、ベストディスカッサー賞）を受賞しました！</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.9.1</span>
+          <span class="news-badge badge-paper">論文 #42,43</span>
+          <p class="news-text">愛媛大学、名古屋市立大学との共同研究成果がCancer Science誌に2報掲載されました。大腸がんにおけるKLHL5の機能解析と臨床における意義を明らかにしました。<em class="news-journal">Cancer Science</em></p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.7.2–4</span>
+          <span class="news-badge badge-conf">学会・セミナー</span>
+          <p class="news-text">第29回日本がん分子標的治療学会学術集会にて、中山が発表しました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.6.30</span>
+          <span class="news-badge badge-paper">論文 #41</span>
+          <p class="news-text">東北大学との共同執筆した総説がCell Structure and Function誌に掲載されました。STINGバリアントの機能とヒトへの応用についての総説です。<em class="news-journal">Cell Structure and Function</em></p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.6.30</span>
+          <span class="news-badge badge-news">お知らせ</span>
+          <p class="news-text">2025年度が始まりました。明果瑠-安岡 いるま（学振PD）と堀口音葉（技術補助員）がグループに加わりました。</p>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">2025.6.19–20</span>
+          <span class="news-badge badge-conf">学会・セミナー</span>
+          <p class="news-text">第34回日本がん転移学会学術集会・総会にて、中山、明果瑠-安岡が発表しました。</p>
+        </div>
+
+      </div>
+      <div class="news-archive-link">
+        <a href="news-archive.html" class="btn btn-secondary">過去のニュースをすべて見る →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PI PROFILE ========== -->
+  <section class="section" id="pi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Principal Investigator</span>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile-body">
+          <h2 class="profile-name">中山 淳 — Jun Nakayama, Ph.D.</h2>
+          <p class="profile-title">金沢大学がん進展制御研究所 細胞情報学研究分野 准教授</p>
+          <p class="profile-bio">シグナル伝達解析とデータサイエンスを駆使し、がん転移・休眠の分子メカニズム解明と新たな治療法開発を目標に研究を行っています。早稲田大学で博士号取得後、国立がん研究センターにて学振PD・特任研究員として1細胞解析・空間オミクスを駆使した研究を展開。大阪国際がんセンターにて研究員として休眠誘導薬を同定。2026年4月より現職。</p>
+          <div class="profile-links">
+            <a href="https://researchmap.jp/jnakayama" target="_blank" rel="noopener" class="profile-link">Researchmap</a>
+            <a href="https://scholar.google.co.jp/citations?user=0sIHuzgAAAAJ&hl=ja" target="_blank" rel="noopener" class="profile-link">Google Scholar</a>
+            <a href="https://orcid.org/0000-0001-8844-4295" target="_blank" rel="noopener" class="profile-link">ORCID</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Career -->
+      <div class="cv-block">
+        <h3 class="cv-heading">経歴</h3>
+        <div class="cv-list">
+          <div class="cv-item">
+            <span class="cv-period">2026.4 – 現在</span>
+            <div class="cv-detail">
+              <strong>金沢大学がん進展制御研究所 細胞情報学研究分野 准教授</strong>
             </div>
-        </nav>
+          </div>
+          <div class="cv-item">
+            <span class="cv-period">2023.9 – 2026.3</span>
+            <div class="cv-detail">
+              <strong>大阪国際がんセンター研究所 腫瘍増殖制御学部 研究員</strong><br>
+              Mentor: 東山繁樹
+            </div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-period">2020.4 – 2023.8</span>
+            <div class="cv-detail">
+              <strong>国立がん研究センター研究所 細胞情報学分野 病態情報学ユニット 日本学術振興会特別研究員PD・特任研究員</strong><br>
+              Mentor: 山本雄介
+            </div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-period">2017.4 – 2020.3</span>
+            <div class="cv-detail">
+              <strong>早稲田大学 理工学術院 助手・助教</strong><br>
+              Mentor: 仙波憲太郎
+            </div>
+          </div>
 
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="home">
-                <div class="resume-section-content">
-                    <h3 class="mb-0">
-                        金沢大学がん進展制御研究所
-                        <span class="text-primary">細胞情報学研究分野</span>
-                    </h3>
-                    <div class="subheading mb-2">
-                        Cell Signaling and Informatics
-                    </div>
+        </div>
 
-                    <p class="lead mb-5">　当研究室では、がん転移・休眠・薬剤耐性などのがん進展における分子メカニズムの解明と治療法開発を目的として、研究を行っています。特に、シグナル伝達ネットワーク解析とオミクス・データサイエンスを中心とした細胞情報学を通して、転移制圧に向けた基礎研究を行っています。いわゆるWET実験（細胞を用いた実験・動物実験・臨床検体を用いた実験）とDRY解析（バイオインフォマティクス・データサイエンス）の両方を実施できる人材の育成に注力しています。「DRY解析による仮説・モデルの提案」と「WET実験による実証」を実現し、トランスレーショナル研究およびリバース・トランスレーショナル研究の促進を行っています。</p>
+        <h3 class="cv-heading">学歴</h3>
+        <div class="cv-list">
+          <div class="cv-item">
+            <span class="cv-period">2016.4 – 2019.3</span>
+            <div class="cv-detail">早稲田大学大学院 先進理工学研究科 生命医科学専攻 博士後期課程 修了 — 博士（理学）</div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-period">2014.4 – 2016.3</span>
+            <div class="cv-detail">早稲田大学大学院 先進理工学研究科 生命医科学専攻 博士前期課程 修了 — 修士（理学）</div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-period">2010.4 – 2014.3</span>
+            <div class="cv-detail">早稲田大学 先進理工学部 生命医科学科 卒業 — 学士（理学）</div>
+          </div>
+        </div>
 
-                    <p class="lead mb-5">　<b>"募集"</b> 当研究室では、大学院生（修士・博士・医師（M.D.））を受け入れています。また、博士研究員は日本学術振興会などの外部雇用資金獲得を主として受け入れています。申請書作成から申請の手続きまでサポート致します。また、研究費獲得状況に応じて、特任研究員等の雇用も可能です。まずは中山までお気軽にご連絡ください。</p>
+        <h3 class="cv-heading">受賞歴</h3>
+        <ul class="award-list">
+          <li>2025年 文部科学省 AdAMS若手支援技術講習会 ベストプレゼンター賞（口頭発表）</li>
+          <li>2025年 公益財団法人大阪成人病予防協会 令和6年度成人病医学研究顕彰</li>
+          <li>2024年 公益財団法人大阪対がん協会 2024年度がん研究助成奨励金</li>
+          <li>2024年 The American Physiological Society, APS Select Award in Physiological Genomics</li>
+          <li>2023年 公益財団法人大阪対がん協会 2023年度がん研究助成奨励金</li>
+          <li>2023年 <strong>日本がん転移学会 奨励賞</strong></li>
+          <li>2022年 <strong>Top Cited Article Award 2020–2021 'Genes to Cells', WILEY</strong></li>
+          <li>2018年 In vivoイメージングフォーラム2018 SPI大賞（最優秀賞）</li>
+          <li>2018年 文部科学省 AdAMS若手支援技術講習会 ベストポスター賞</li>
+          <li>2017年 文部科学省 AdAMS若手支援技術講習会 ベストトーク賞</li>
+          <li>2017年 第21回日本がん分子標的治療学会学術集会 ポスター賞</li>
+          <li>2016年 文部科学省 AdAMS若手支援技術講習会 ベストポスター賞</li>
+        </ul>
 
-                    <p class="lead mb-5">　共同研究、企業共同研究の受け入れも随時行っておりますので、ご興味のある方は、中山までご連絡ください。</p>
+        <h3 class="cv-heading">助成金・競争的資金</h3>
+        <ul class="grant-list">
+          <li>2026年 日本学術振興会 科学研究費助成事業 基盤研究(B)</li>
+          <li>2025年 公益財団法人 日本フィランソロピック財団 がん研究フロンティア基金</li>
+          <li>2024年 公益財団法人 千里ライフサイエンス振興財団 岸本基金研究助成</li>
+          <li>2024年 日本医療研究開発機構（AMED） 革新的がん医療実用化研究事業</li>
+          <li>2024年 公益財団法人 安田記念医学財団 若手癌研究助成</li>
+          <li>2024年 公益財団法人 持田記念医学薬学振興財団 持田記念研究助成金</li>
+          <li>2024年 公益財団法人 がん研究振興財団 がん研究助成事業</li>
+          <li>2023年 公益財団法人 武田科学振興財団 医学系研究助成（がん領域・基礎）</li>
+          <li>2023年 日本学術振興会 科学研究費助成事業 基盤研究(C)</li>
+          <li>2022年 公益財団法人 神澤医学研究振興財団 研究助成金</li>
+          <li>2022年 一般財団法人 横山臨床薬理研究助成基金 研究助成金</li>
+          <li>2021年 グラクソ・スミスクラインジャパン GSKジャパン研究助成</li>
+          <li>2021年 日本学術振興会 科学研究費助成事業 若手研究</li>
+          <li>2021年 公益財団法人 がん研究振興財団 がん研究助成事業</li>
+          <li>2021年 公益財団法人 東京生化学研究会 研究奨励金（Ⅰ）</li>
+          <li>2020年 日本学術振興会 科学研究費助成事業 特別研究員奨励費</li>
+          <li>2019年 早稲田大学 若手研究者支援事業アーリーバード</li>
+          <li>2018年 日本学術振興会 科学研究費助成事業 若手研究</li>
+        </ul>
 
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://github.com/JunNakayama"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://www.linkedin.com/in/junnakayama-b37149402/"><i class="fab fa-linkedin-in"></i></a>
-                        <p>   </p>
-                    </div>
-                    <div class="subheading mb-5">
-                        CONTACT: 13-1 Takara-machi, Kanazawa, Ishikawa, Japan. 
-                        e-mail: <a href="mailto:jnakayama@staff.kanazawa-u.ac.jp">jnakayama[at]staff.kanazawa-u.ac.jp</a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
+        <h3 class="cv-heading">委員歴・外部所属</h3>
+        <ul class="service-list">
+          <li>2026年–現在 <em>Cells</em>, Special Issue "Interaction between DNA Damage Response and Anti-Cancer Immunity", Guest Editor</li>
+          <li>2025年–現在 沖縄分子腫瘍学研究交流会 監事</li>
+          <li>2024年–現在 <strong>日本がん転移学会 評議員</strong></li>
+          <li>2024年–現在 PathPortどこでも病理ラボ 分科会 サポートメンバー</li>
+          <li>2024年–2025年 日本癌学会 若手共創ワーキンググループ メンバー</li>
+          <li>2024年–2026年 関西医科大学 附属生命医学研究所 がん生物学部門 客員研究員</li>
+          <li>2023年–2026年 国立がん研究センター研究所 病態情報学ユニット 外来研究員</li>
+        </ul>
 
-            <!-- News-->
-            <section class="resume-section" id="news">
-              <div class="resume-section-content">
-                <h2 class="sub_ttl">NEWS</h2>
-    
-                 <!-- ここからニュース記事 -->
-                <ul>
-                  <li>
-                    <div class="day"><b>2026.4.1</b></div>
-                    <div class="label"><b>お知らせ</b></div>
-                    <div class="text">金沢大学がん進展制御研究所に着任しました。細胞情報学研究分野にて、がん転移におけるシグナル伝達・オミクス解析を駆使し、転移・休眠の分子機構解明・新規治療法の開発を目指して研究を行っていきます。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2026.3.27</b></div>
-                    <div class="label"><b>論文 / Publication【47】</b></div>
-                    <div class="text">慶応義塾大学・東海大学など複数施設の共同研究成果がJournal of Extracellular Vesichles誌に掲載されました。細菌由来EVsの機能解析とがんとの関係性について明らかにしました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2026.3.25</b></div>
-                    <div class="label"><b>お知らせ</b></div>
-                    <div class="text">愛媛大学プロテオインタラクトーム解析共同研究拠点　2026年度共同利用・共同研究課題に、中山が採択されました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2026.3.23</b></div>
-                    <div class="label"><b>お知らせ</b></div>
-                    <div class="text">公益財団法人大阪対がん協会 2025年度がん研究助成奨励金、公益財団法人がん研究振興財団　令和7年度がん研究助成金Ⅰに明果瑠-安岡が採択されました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2026.2.27</b></div>
-                    <div class="label"><b>お知らせ</b></div>
-                    <div class="text">2026年度 日本学術振興会科学研究費基金 基盤研究(B)（研究代表者：中山淳）、若手研究（研究代表者：明果瑠-安岡いるま）に採択されました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2026.2.6</b></div>
-                    <div class="label"><b>学会・受賞・セミナー</b></div>
-                    <div class="text">関西医科大学 大学院講義・がんプロセミナーにて、中山が発表しました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2026.1.24</b></div>
-                    <div class="label"><b>論文 / Publication【46】</b></div>
-                    <div class="text">国立がん研究センター研究所・東京慈恵会医科大学との共同研究成果がnpj Precision Oncology誌に掲載されました。肺扁平上皮がんと肺腺癌におけるCancer-associated Fibroblasts(CAFs)の多様性について、1細胞メタ解析を用いて明らかにしました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2026.1.21</b></div>
-                    <div class="label"><b>学会・受賞・セミナー</b></div>
-                    <div class="text">第25回複雑生命系秩序懇談会定例会にて、中山が発表しました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.12.18</b></div>
-                    <div class="label"><b>論文 / Publication【45】</b></div>
-                    <div class="text">関西医科大学との共同研究成果がInternational Journal of Molecular Sciences誌に掲載されました。卵巣がんのanoikis耐性および腹膜播種におけるRNF126の機能について明らかにしました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.12.3-5</b></div>
-                    <div class="label"><b>学会・受賞・セミナー</b></div>
-                    <div class="text">第48回日本分子生物学会にて、明果瑠-安岡、堀口が発表しました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.11.14</b></div>
-                    <div class="label"><b>論文 / Publication【44】</b></div>
-                    <div class="text">早稲田大学との共同研究成果がGenes to Cells誌に掲載されました。乳がん細胞におけるTIE1の機能と悪性化機構を明らかにしました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.11.8-9</b></div>
-                    <div class="label"><b>学会・受賞・セミナー</b></div>
-                    <div class="text">第9回転移シグナル若手研究会にて、中山、明果瑠-安岡が発表しました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.10.27</b></div>
-                    <div class="label"><b>お知らせ</b></div>
-                    <div class="text">サイトオープンしました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.9.25-27</b></div>
-                    <div class="label"><b>学会・受賞・セミナー</b></div>
-                    <div class="text">第84回日本癌学会学術総会にて、中山、明果瑠-安岡が発表しました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.9.3-5</b></div>
-                    <div class="label"><b>学会・受賞・セミナー</b></div>
-                    <div class="text">2025年文部科学省 学術変革領域研究 学術研究支援基盤形成 先端モデル動物支援プラットフォーム（AdAMS）若手支援技術講習会にて、中山、明果瑠-安岡が発表しました。中山(ベストプレゼンター賞 口頭発表）、明果瑠-安岡（ベストプレゼンター賞　ポスター賞、きっかり3分間トーク賞、ベストディスカッサー賞）を受賞しました！</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.9.1</b></div>
-                    <div class="label"><b>論文 / Publication【42, 43】</b></div>
-                    <div class="text">愛媛大学、名古屋市立大学との共同研究成果がCancer Science誌に2報掲載されました。大腸がんにおけるKLHL5の機能解析と臨床における意義を明らかにしました。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.7.2-4</b></div>
-                    <div class="label"><b>学会・受賞・セミナー</b></div>
-                    <div class="text">第29回日本がん分子標的治療学会学術集会にて、中山が発表しました。 </div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.6.19-20</b></div>
-                    <div class="label"><b>学会・受賞・セミナー</b></div>
-                    <div class="text">第34回日本がん転移学会学術集会・総会にて、中山、明果瑠-安岡が発表しました。 </div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.6.30</b></div>
-                    <div class="label"><b>論文 / Publication【41】</b></div>
-                    <div class="text">東北大学との共同執筆した総説がCell Structure and Function誌に掲載されました。STINGバリアントの機能とヒトへの応用についての総説です。</div>
-                  </li>
-                  <li>
-                    <div class="day"><b>2025.6.30</b></div>
-                    <div class="label"><b>お知らせ</b></div>
-                    <div class="text">2025年度が始まりました。明果瑠-安岡 いるま（学振PD）と堀口音葉(技術補助員)がグループに加わりました。</div>
-                  </li>
-              </ul>
-              </div>
-            </section>
+        <h3 class="cv-heading">所属学会</h3>
+        <div class="society-tags">
+          <a href="http://jamr.umin.ac.jp/" target="_blank" rel="noopener" class="society-tag">日本がん転移学会</a>
+          <a href="https://www.cancer.or.jp/" target="_blank" rel="noopener" class="society-tag">日本癌学会</a>
+          <a href="https://www.mbsj.jp/" target="_blank" rel="noopener" class="society-tag">日本分子生物学会</a>
+          <a href="https://jamttc.umin.jp/" target="_blank" rel="noopener" class="society-tag">日本がん分子標的治療学会</a>
+          <a href="https://metastasis-research.org/" target="_blank" rel="noopener" class="society-tag">Metastasis Research Society</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <!-- Jun Nakayama-->
-            <section class="resume-section" id="JunNakayama">
-                <div class="resume-section-content">
-                    <h3 class="mb-5">中山 淳 Jun Nakayama, Ph.D.</h3>
+  <!-- ========== MEMBER ========== -->
+  <section class="section section-alt" id="member">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Member</span>
+        <div class="section-line"></div>
+      </div>
+      <h2 class="section-title">メンバー</h2>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="subheading mb-3"><b>金沢大学がん進展制御研究所 細胞情報学研究分野 准教授</b></div>
-                            <p>シグナル伝達解析とオミクス・データサイエンスを駆使し、がん転移・休眠の分子メカニズム解明と新たな治療法開発を目標に研究を行っています。</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2026.4 - present</span></div>
-                    </div>
-                    
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="subheading mb-3"><b>大阪国際がんセンター研究所 腫瘍増殖制御学部 研究員</b></div>
-                            <p>多段階的な現象である転移のなかでも休眠現象に注目して研究を開始しました。休眠の再定義と分子メカニズムの理解を通して、休眠を制御する戦略の確立を目標として研究を行っています。</p>
-                            <p>Menter 東山繁樹</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023.9 - 2026.3</span></div>
-                    </div>
+      <div class="member-group-label">Staffs</div>
+      <div class="member-grid">
+        <div class="member-card">
+          <div class="member-info">
+            <h3 class="member-name">中山 淳<span class="member-name-en">Jun Nakayama, Ph.D.</span></h3>
+            <p class="member-role">准教授</p>
+            <div class="member-links">
+              <a href="https://researchmap.jp/jnakayama" target="_blank" rel="noopener">Researchmap</a>
+              <a href="https://scholar.google.co.jp/citations?user=0sIHuzgAAAAJ&hl=ja" target="_blank" rel="noopener">Scholar</a>
+              <a href="https://orcid.org/0000-0001-8844-4295" target="_blank" rel="noopener">ORCID</a>
+            </div>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-info">
+            <h3 class="member-name">明果瑠-安岡 いるま<span class="member-name-en">Eilma Akter-Yasuoka, Ph.D.</span></h3>
+            <p class="member-role">日本学術振興会 特別研究員PD</p>
+            <div class="member-links">
+              <a href="https://researchmap.jp/eilma" target="_blank" rel="noopener">Researchmap</a>
+            </div>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-info">
+            <h3 class="member-name">堀口 音葉<span class="member-name-en">Otoha Horiguchi</span></h3>
+            <p class="member-role">大阪国際がんセンター 技術補助員 / 社会人大学院生</p>
+          </div>
+        </div>
+      </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="subheading mb-3"><b>国立がん研究センター研究所 細胞情報学分野 病態情報学ユニット</b></div>
-                            <div class="subheading mb-3"><b>日本学術振興会特別研究員PD・特任研究員</b></div>
-                            <p>がん臨床検体を用いた解析を中心として、がんの本態解明や治療標的の探索を行っていました。特に1細胞解析（Single-cell RNA-seq: scRNA-seq）や空間オミクス（Visium等)を用いた解析を行いました。独自の解析アルゴリズム構築も行い、新たな解析手法の開発も行っていました。1細胞レベルの解析から、乳がんの超早期不均一進化モデルや喫煙による発がんイベントを明らかにしました。</p>
-                            <p>Menter 山本雄介</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2020.4 - 2023.8</span></div>
-                    </div>
+      <div class="member-group-label" style="margin-top: 2rem;">Students</div>
+      <p class="member-tbd">大学院生 募集中 — <a href="#join">詳細はこちら</a></p>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="subheading mb-3"><b>早稲田大学 理工学術院 助手・助教</b></div>
-                            <p>in vivo selection法を用いた独自の高転移株樹立とその解析から、転移の分子メカニズム解明を行っていました。高転移株はがん細胞のサブタイプや樹立手法・移植手法によって特徴的な転移Signatureを有していることがわかりました。そのSignatureから新たな転移制御遺伝子を同定し、転移の治療標的となりうる遺伝子を見出しました。</p>
-                            <p>Menter 仙波憲太郎</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2017.4 - 2020.3</span></div>
-                    </div>
+      <div class="member-group-label" style="margin-top: 2rem;">Alumni</div>
+      <div class="alumni-list">
+        <div class="alumni-item">
+          <span class="alumni-name">西田 亮一（Ryoichi Nishida, Ph.D.）</span>
+          <span class="alumni-period">2024.3 – 2025.3 技術補助員（大阪国際がんセンター）</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">外部所属</h3>
-                            <p>2024年 - 2026年　関西医科大学 附属生命医学研究所 がん生物学部門　客員研究員</p>
-                            <p>2023年 - 2026年　国立がん研究センター研究所 病態情報学ユニット　外来研究員</p>
-                            <p>　　</p>
-                        </div>
-                    </div>
+  <!-- ========== PUBLICATIONS ========== -->
+  <section class="section" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Publications</span>
+        <div class="section-line"></div>
+      </div>
+      <h2 class="section-title">論文・総説・書籍</h2>
+      <p class="pub-note">* = Corresponding Author / † = Contributed Equally</p>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">受賞歴</h3>
-                            <p>2025年　文部科学省 学術変革領域研究「先端モデル動物支援プラットフォーム」2025年度若手支援技術講習会 ベストプレゼンター賞（口頭発表）</p>
-                            <p>2025年　公益財団法人大阪成人病予防協会 令和6年度成人病医学研究顕彰</p>
-                            <p>2024年　公益財団法人大阪対がん協会 2024年度がん研究助成奨励金</p>
-                            <p>2024年　The American Physiological Society, APS Select Award in Physiological Genomics</p>
-                            <p>2023年　公益財団法人大阪対がん協会 2023年度がん研究助成奨励金</p>
-                            <p><b>2023年　日本がん転移学会　奨励賞</b></p>
-                            <p><b>2022年　Top Cited Article Award 2020-2021 'Genes to Cells', WILEY</b></p>
-                            <p>2018年　In vivoイメージングフォーラム2018 SPI大賞（最優秀賞）</p>
-                            <p>2018年　文部科学省 新学術領域研究「先端モデル動物支援プラットフォーム」平成30年度若手支援技術講習会 ベストポスター賞</p>
-                            <p>2017年　文部科学省 新学術領域研究「先端モデル動物支援プラットフォーム」平成29年度若手支援技術講習会 ベストトーク賞</p>
-                            <p>2017年　第21回日本がん分子標的治療学会学術集会 ポスター賞</p>
-                            <p>2016年　文部科学省 新学術領域研究「先端モデル動物支援プラットフォーム」平成28年度若手支援技術講習会 ベストポスター賞</p>
-                            <p>　　</p>
-                        </div>
-                    </div>
+      <h3 class="pub-subhead">Articles &amp; Reviews</h3>
+      <ol class="pub-list" reversed>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">委員歴</h3>
-                            <p>2026年-Present　Cells, Special Issue "Interaction between DNA Damage Response and Anti-Cancer Immunity", Guest Editor </p>
-                            <p>2025年-Present　沖縄分子腫瘍学研究交流会　監事</p>
-                            <p>2024年-Present　日本がん転移学会　評議員</p>
-                            <p>2024年-Present　PathPortどこでも病理ラボ 分科会 サポートメンバー</p>
-                            <p>2024年-2025年　日本癌学会 若手共創ワーキンググループ メンバー</p>
-                            <p>　　</p>
-                        </div>
-                    </div>
+        <li class="pub-item">
+          Shoji T, Shinojima A, Kishimoto T, Sato K, Ikegami N, Yumoto E, Shindo R, Uchida Y, Kusumi S, Koga D, Yamamoto E, Hirano Y, Ogino R, Shibata H, Izawa K, Yasumi T, Sato R, <strong>Nakayama J</strong>, Higashiyama S, Hasegawa J, Kajiho H, Sasaki T, Kuchitsu Y*, Taguchi T*. CHMP4B is a lysosomal effector of PI(3,5)P2, facilitating ESCRT-mediated microautophagic degradation of STING. <strong><em>Nature Communications</em></strong>. in press.
+        </li>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">助成金・競争的資金</h3>
-                            <p>2026年　日本学術振興会 科学研究費助成事業 基盤研究(B)</p>
-                            <p>2025年　公益財団法人 日本フィランソロピック財団 がん研究フロンティア基金</p>
-                            <p>2024年　公益財団法人 千里ライフサイエンス振興財団 岸本基金研究助成</p>
-                            <p>2024年　日本医療研究開発機構（AMED） 革新的がん医療実用化研究事業</p>
-                            <p>2024年　公益財団法人 安田記念医学財団 若手癌研究助成</p>
-                            <p>2024年　公益財団法人 持田記念医学薬学振興財団 2024年度持田記念研究助成金</p>
-                            <p>2024年　公益財団法人 がん研究振興財団 がん研究助成事業</p>
-                            <p>2023年　公益財団法人 武田科学振興財団 2023年度 医学系研究助成(がん領域(基礎))</p>
-                            <p>2023年　日本学術振興会 科学研究費助成事業 基盤研究(C)</p>
-                            <p>2022年　公益財団法人 神澤医学研究振興財団 2022年度研究助成金</p>
-                            <p>2022年　一般財団法人 横山臨床薬理研究助成基金 令和4年度研究助成金</p>
-                            <p>2021年　グラクソ・スミスクラインジャパン 2021年度GSKジャパン研究助成</p>
-                            <p>2021年　日本学術振興会 科学研究費助成事業 若手研究</p>
-                            <p>2021年　公益財団法人 がん研究振興財団 がん研究助成事業</p>
-                            <p>2021年　公益財団法人 東京生化学研究会 研究奨励金（Ⅰ）</p>
-                            <p>2020年　日本学術振興会 科学研究費助成事業 特別研究員奨励費</p>
-                            <p>2019年　早稲田大学 若手研究者支援事業アーリーバード</p>
-                            <p>2018年　日本学術振興会 科学研究費助成事業 若手研究</p>
-                            <p>　　</p>
-                        </div>
-                    </div>
+        <li class="pub-item">
+          Tsubaki S, Nashimoto S, Tanaka R, Tsutsuki H, Kato K, <strong>Nakayama J</strong>, Kimura K, Oshima K, Yamamoto Y, Okusaka T, Esaki M, Kawai N, Ota N, Yoshioka Y, Ochiya T, Saito Y, Sawa T, Hozumi K, Matsuzaki J*, Tsugawa H*. Gut commensal <em>Klebsiella pneumoniae</em> extracellular vesicles shape a liver microenvironment conducive to gut-liver bacterial translocation and pro-tumorigenic processes. <strong><em>Journal of Extracellular Vesicles</em></strong> 15(4):e70262.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41885342/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">所属学会</h3>
-                            <a href= "http://jamr.umin.ac.jp/" >日本がん転移学会</a>, 
-                            <a href= "https://www.cancer.or.jp/" >日本癌学会</a>, 
-                            <a href= "https://www.mbsj.jp/" >日本分子生物学会</a>, 
-                            <a href= "https://jamttc.umin.jp/" >日本がん分子標的治療学会</a>, 
-                            <a href= "https://metastasis-research.org/" >Metastasis Research Society</a>
-                            <p>　　</p>
-                        </div>
-                    </div>
+        <li class="pub-item">
+          Hirano Y, Suzuki H, <strong>Nakayama J</strong>, Yamamoto T, Hirata E, Araya J, Fujita Y*, Yamamoto Y*. An integrated single-cell lung cancer atlas reveals distinct fibroblast phenotypes between adenocarcinoma and squamous cell carcinomas. <strong><em>npj Precision Oncology</em></strong>. 2026 Jan 23.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41577803/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">学歴</h3>
-                            <p>2016.4 - 2019.3 早稲田大学大学院 先進理工学研究科 生命医科学専攻 博士後期課程　修了 博士（理学）</p>
-                            <p>2014.4 - 2016.3 早稲田大学大学院 先進理工学研究科 生命医科学専攻 博士前期課程　修了 修士（理学）</p>
-                            <p>2010.4 - 2014.3 早稲田大学 先進理工学部 生命医科学科　卒業 学士（理学）</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
+        <li class="pub-item">
+          Vu DA†, Mori S†, Akamatsu K, <strong>Nakayama J</strong>, Sakamoto T*. Ring-finger protein 126 (RNF126) promotes anoikis resistance and peritoneal dissemination in ovarian cancer. <strong><em>International Journal of Molecular Sciences</em></strong>. 2025;26(24):12183.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41465608/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-            <!-- Research Interests-->
-            <section class="resume-section" id="ResearchInterests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Research Interests</h2>
-                    <img class="img-fluid mb-1" src="assets/img/Research.png" alt="Research overview"/>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Metastasis</h3>
-                            <div class="subheading mb-3">Signal Transduction and Omics analysis</div>
-                            <p>　がん転移とは、がん細胞が原発巣から血液・リンパ液・腹水などに播種された後に遠隔臓器に生着し、増殖する現象です。転移が見つかると、臨床ではステージ4とみなされる段階であり、予後や治療方針に大きな影響を与えます。また多くの転移性腫瘍に対して有効な治療法がない現状です。がん転移は局所浸潤・血管リンパ管新生・循環系内での生存・遠位臓器への浸潤・微小転移の形成・転移コロニーの形成、という複数ステップで成立する非常に複雑な機構です。さらに、がん種によって転移しやすい臓器が異なり（指向性）、がん種や転移先臓器によって転移のメカニズムが異なることがわかっています。「どのがん」が「どの臓器」に「どの遺伝子を利用」して転移するのか、を理解することが、がん転移を制圧するうえで重要な課題となっています。がん転移は遺伝子変異などのゲノム異常だけで説明することは難しく、局所的な遺伝子発現変動やがん細胞の不均一性拡大などで転移能を獲得することがわかってきています。ゲノムだけでなく、様々な階層で理解することが重要になってきます。</p>
-                            <p>　私達のグループでは、細胞内・細胞外・細胞間のシグナル伝達に着目して、がん細胞がどのようにして転移能を獲得するのかを明らかにすることを目的として研究しています。独自に樹立した高転移性のがん細胞株を用いた解析により、新たな転移制御遺伝子および治療標的遺伝子の探索を行っています。</p>
-                            <div class="subheading mb-3">Dormancy</div>
-                            <p>　休眠とは、がん転移の過程や薬剤応答によって引き起こされる現象であり、分子レベルでの定義はまだ曖昧な現状です。現象論として、【1】可逆的なG0期に留まっており【2】代謝状態が落ちている状態で、数カ月から数十年という長い期間、その局所に留まっている状態を指します。特に乳がんにおいては、転移先臓器に播種したがん細胞の多くは休眠状態にあり、転移再発の主因である休眠現象の理解と克服は重要な課題の1つです。</p>
-                            <p>　私達は独自のin vitro Dormant assayを用いて、乳がん細胞における休眠の評価と休眠誘導薬の探索を行っています。休眠を制御する重要なシグナル伝達経路を同定しており、薬剤による休眠制御が可能となってきました。同定した薬剤の中には、実際に臨床で用いられているものもあり、なかには投与の時期を変更することによって寛解期が延長することも報告されているものもあります。休眠を誘導する薬剤をベースとしたがん休眠療法の確立は、寛解期の延長に繋がり、がん患者およびがんサバイバーの健康寿命を延伸する、重要な転移制圧の戦略の1つになると考えています。</p>
-                            <p>   </p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Data Science</h3>
-                            <div class="subheading mb-3"> Single-cell analysis and Artificial Intelligence</div>
-                            <p>　現在の生命科学は、オミクス解析の発展に伴って膨大な情報を取り扱う情報科学的側面が強くなっています。さらに機械学習・Artificial Intelligence(AI)の発展から人間の目では判別できない差を見出すこと、大量のデータを処理することが可能になってきました。ゲノム情報だけでなく、各階層のオミクス情報、医療記録、画像データなどの膨大な生命科学データを解析することが求められています。</p>
-                            <p>　私達は特に1細胞レベルの解析に着目して、データ収集および統合解析を行っています。一般的な解析手法を駆使しつつも、自分たちの研究目的に合わせて独自の解析手法を確立し、新たな知見を得ることを目的としています。さらに1細胞情報と臨床情報を組み合わせた"1細胞メタ解析"の技術基盤構築にも取り組んでいます。これまでの臨床情報を1細胞レベルで読み解くことで、疾患の原因となる細胞や遺伝子の同定を行います。公共データベース利活用基盤を構築することで、これまでに不可能だった大規模解析を実現し、Robustな解析を行うことを目的としています。またWETデータ×オミクスデータ×AIの適用を通して、医療応用を目指した新たな技術開発を行っています。</p>
-                            <p>　私達の強みとして、「DRY解析による仮説・モデルの提案」と「WET実験による実証」を実施していることが挙げられます。臨床検体やオミクス解析の大部分は相関関係を見出すことを得意としますが、因果関係まではっきりしないことが多いです。実際に実験に落とし込むことで因果関係を証明することまで行うことが、研究体制として確立されています。</p>
-                            <p>   </p>
-                        </div>
-                    </div>
-                   <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">研究課題</h3>
-                            <p>1. がん転移の分子機構解明と治療標的の探索</p>
-                            <p>2. 休眠の分子機構解明と休眠を制御するがん休眠療法の確立</p>
-                            <p>3. ゲノム異常・遺伝子発現変化を基盤としたがん進化と不均一性獲得機構の解明</p>
-                            <p>4. 日本人ゲノム・SNPs研究に基づいた日本人に最適ながん医療の創出</p>
-                            <p>5. 公共データベース利活用基盤の構築とデータサイエンスを応用したがん包括的解析</p>
-                            <p>   </p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h4 class="mb-0">現在進行中の研究テーマ</h4>
-                            <p>1. 大規模薬剤スクリーニングによる休眠制御薬の探索と分子メカニズムの解明</p>
-                            <p>2. がん休眠細胞の形態解析と判別AIの開発</p>
-                            <p>3. 1細胞RNA-seq解析および空間トランスクリプトーム解析によるがん転移メカニズムの解明</p>
-                            <p>4. CRISPR screeningによる休眠制御遺伝子の探索</p>
-                            <p>5. 細胞間伝達物質の網羅解析技術の開発とニッチ解析</p>
-                            <p>6. 構造転写因子を介したがん幹細胞性のエピジェネティック制御と腫瘍内不均一性の解明</p>
-                            <p>7. クローン選択に関わる遺伝子の探索と競合性の評価</p>
-                            <p>8. データサイエンス手法を応用した新たな不均一性定量解析手法の開発</p>
-                            <p>9. SNPs解析を通した免疫シグナル異常の解明と遺伝的背景の理解</p>
-                            <p>10. 有機合成との融合研究による新規シーズ化合物の創製と抗がん/抗疼痛研究</p>
-                            <p>11. TBD</p>
-                            <p>   </p>
-                        </div>
-                    </div>
-            </section>
-            <hr class="m-0" />
+        <li class="pub-item">
+          Azuma K, Matsuyama T, Watanabe S, Semba K*, <strong>Nakayama J*</strong>. TIE1 promotes primary tumor growth by inhibiting apoptosis and activating AKT-p70S6K signaling pathway in breast cancer. <strong><em>Genes to Cells</em></strong>. 2025 Nov;30(6):e70062. <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41235901/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-            <!-- Member-->
-            <section class="resume-section" id="Member">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Member</h2>
-                    <img class="img-fluid img-profile rounded-circle mb-1" src="assets/img/profile.jpg" alt="2025年度メンバー"/>
-                    <div class="subheading mb-4">Staffs</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <h3 class="mb-0">中山 淳  #Jun Nakayama, Ph.D.</h3>
-                            <a href= "https://researchmap.jp/jnakayama" >Researchmap</a>, <a href= "https://scholar.google.co.jp/citations?user=0sIHuzgAAAAJ&hl=ja" >Google Scholar</a>, <a href= "https://orcid.org/0000-0001-8844-4295" >ORCID</a>
-                            <p>准教授</p>
-                        </li>
-                        <li>
-                            <h3 class="mb-0">明果瑠-安岡 いるま  #Eilma Akter-Yasuoka, Ph.D.</h3>
-                            <a href= "https://researchmap.jp/eilma" >Researchmap</a>
-                            <p>日本学術振興会 特別研究員PD</p>
-                        </li>
-                        <li>
-                            <h3 class="mb-0">堀口 音葉  #Otoha Horiguchi</h3>
-                            <p>大阪国際がんセンター 技術補助員/社会人大学院生</p>
-                            <p>　　</p>
-                        </li>
-                    </ul>
+        <li class="pub-item">
+          Habu K, Matsuoka Y, Hiyoshi H, <strong>Nakayama J</strong>, Watanabe K, Tate S, Sakaue T, Murai J, Uno K, Nishie H, Kubota E, Kataoka H, Joh T, Watanabe Y, Oshikiri T, Higashiyama S*. KLHL5 Contributes to Colorectal Cancer Cell Survival by Promoting Cell Cycle Progression and Suppressing Apoptotic Cell Death. <strong><em>Cancer Science</em></strong>. 2025 Sep;116(9):2444–2456.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/40590665/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-                    <div class="subheading mb-5">Students</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <h3 class="mb-0">TBD</h3>
-                            <p>　　</p>
-                        </li>
-                    </ul>
+        <li class="pub-item">
+          Uno K, Nishie H, Hiyoshi H, Habu K, <strong>Nakayama J</strong>, Tate S, Sakaue T, Kubota E*, Tanaka M, Shimura T, Kataoka H, Joh T, Higashiyama S. Implication of KLHL Gene Family Member KLHL5 in Colorectal Cancer Progression and Prognosis. <strong><em>Cancer Science</em></strong>. 2025 Sep;116(9):2580–2591.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/40504175/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-                    <div class="subheading mb-5">Alumni</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <h4 class="mb-0">西田 亮一 #Ryoichi Nishida, Ph.D.</h4>
-                            <p>2024.3 - 2025.3 技術補助員(大阪国際がんセンター)</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
+        <li class="pub-item">
+          Koide S†, Yumoto E†, <strong>Nakayama J</strong>, Higashiyama S, Kuchitsu Y*, Taguchi T*. Cell biological insights into human STING variants. <strong><em>Cell Structure and Function</em></strong>. 2025 Jun 7;50(1):135–144. <span class="pub-review">Review</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/40368781/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-            <!-- Publications-->
-            <section class="resume-section" id="Publications">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Publications</h2>
-                    <h3 class="mb-5">Articles & Reviews</h3>
-                    <p>48. Shoji T, Shinojima A, Kishimoto T, Sato K, Ikegami N, Yumoto E, Shindo R, Uchida Y, Kusumi S, Koga D, Yamamoto E, Hirano Y, Ogino R, Shibata H, Izawa K, Yasumi T, Sato R, <b>Nakayama J</b>, Higashiyama S, Hasegawa J, Kajiho H, Sasaki T, Kuchitsu Y*, Taguchi T*. CHMP4B is a lysosomal effector of PI(3,5)P2, facilitating ESCRT-mediated microautophagic degradation of STING. <em><b>Nature Communications</b></em>. in press. <a href= "" >PubMed</a></p>
-                    <p>47. Tsubaki S, Nashimoto S, Tanaka R, Tsutsuki H, Kato K, <b>Nakayama J</b>, Kimura K, Oshima K, Yamamoto Y, Okusaka T, Esaki M, Kawai N, Ota N, Yoshioka Y, Ochiya T, Saito Y, Sawa T, Hozumi K, Matsuzaki J*, Tsugawa H*. Gut commensal Klebsiella pneumoniae extracellular vesicles shape a liver microenvironment conducive to gut-liver bacterial translocation and pro-tumorigenic processes. <em><b>Journal of Extracellular Vesicles</b></em>. 15(4):e70262. <a href= "https://pubmed.ncbi.nlm.nih.gov/41885342/" >PubMed</a></p>
-                    <p>46. Hirano Y, Suzuki H, <b>Nakayama J</b>, Yamamoto T, Hirata E, Araya J, Fujita Y*, Yamamoto Y*. An integrated single-cell lung cancer atlas reveals distinct fibroblast phenotypes between adenocarcinoma and squamous cell carcinomas. <em><b>npj Precision Oncology</b></em>. 2026 Jan 23. <a href= "https://pubmed.ncbi.nlm.nih.gov/41577803/" >PubMed</a></p>
-                    <p>45. Vu DA†, Mori S†, Akamatsu K, <b>Nakayama J</b>, Sakamoto T*. Ring-finger protein 126 (RNF126) promotes anoikis resistance and peritoneal dissemination in ovarian cancer. <em><b>International Journal of Molecular Sciences</b></em>. 2025;26(24):12183. <a href= "https://pubmed.ncbi.nlm.nih.gov/41465608/" >PubMed</a></p>
-                    <p>44. Azuma K, Matsuyama T, Watanabe S, Semba K*, <b>Nakayama J*</b>. TIE1 promotes primary tumor growth by inhibiting apoptosis and activating AKT-p70S6K signaling pathway in breast cancer. <em><b>Genes to Cells</b></em>. 2025 Nov;30(6):e70062. <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/41235901/" >PubMed</a></p>
-                    <p>43. Habu K, Matsuoka Y, Hiyoshi H, <b>Nakayama J</b>, Watanabe K, Tate S, Sakaue T, Murai J, Uno K, Nishie H, Kubota E, Kataoka H, Joh T, Watanabe Y, Oshikiri T, Higashiyama S*. KLHL5 Contributes to Colorectal Cancer Cell Survival by Promoting Cell Cycle Progression and Suppressing Apoptotic Cell Death. <em><b>Cancer Science</b></em>. 2025 Sep;116(9):2444-2456. <a href= "https://pubmed.ncbi.nlm.nih.gov/40590665/" >PubMed</a></p>
-                    <p>42. Uno K, Nishie H, Hiyoshi H, Habu K, <b>Nakayama J</b>, Tate S, Sakaue T, Kubota E*, Tanaka M, Shimura T, Kataoka H, Joh T, Higashiyama S. Implication of KLHL Gene Family Member KLHL5 in Colorectal Cancer Progression and Prognosis. <em><b>Cancer Science</b></em>. 2025 Sep;116(9):2580-2591.  <a href= "https://pubmed.ncbi.nlm.nih.gov/40504175/" >PubMed</a></p>
-                    <p>41. Koide S†, Yumoto E†, <b>Nakayama J</b>, Higashiyama S, Kuchitsu Y*, Taguchi T*. Cell biological insights into human STING variants. <em><b>Cell Structure and Function</b></em>. 2025 Jun 7;50(1):135-144. <b>Review</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/40368781/" >PubMed</a></p>
-                    <p>40. Yoshida K, Yokoi A*, Suzuki H, Tamauchi S, Kitagawa M, Inami E, <b>Nakayama J</b>, Mori Y, Okamoto K, Suzuki Y, Yoshida H, Kato T, Kajiyama H, Yamamoto Y*. Single-Nucleus RNA Sequencing and Spatial Transcriptomics for Squamous Cell Carcinoma Arising From Ovarian Mature Teratoma. <em><b>Cancer Science</b></em>. 2025 May;116(5):1339-1351. <a href= "https://pubmed.ncbi.nlm.nih.gov/39948701/" >PubMed</a></p>
-                    <p>39. Weisheng Z, <b>Nakayama J</b>, Inomata Y, Higashiyama S, Hiratsuka T*. A sensitive ERK fluorescent probe reveals the significance of minimal EGF-induced transcription. <em><b>Cell Structure and Function</b></em>. 2025 Feb 7;50(1):15-24. <a href= "https://pubmed.ncbi.nlm.nih.gov/39694501/" >PubMed</a></p>
-                    <p>38. Nakamichi K, Suzuki H, Yamamoto Y, Semba K, <b>Nakayama J*</b>. Nuclear receptor profiling for subtype classification and as prognostic markers in 33 cancer types. <em><b>Discover Oncology</b></em>. 2024 Dec 24;15(1):834. <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/39715959/" >PubMed</a></p>
-                    <p>37. Murayama T, Mahadevan NR, Meador CB, Ivanova EV, Pan Y, Knelson EH, Tani T, <b>Nakayama J</b>, Ma X, Thai TC, Hung YP, Kim W, Watanabe H, Cai KQ, Hata AN, Paweletz CP, Barbie DA, Cañadas I*. Targeting TREX1 Induces Innate Immune Response in Drug-Resistant Small-Cell Lung Cancer. <em><b>Cancer Research Communicantions</b></em>. 2024 Sep 1;4(9):2399-2414. <a href= "https://pubmed.ncbi.nlm.nih.gov/39177280/" >PubMed</a></p>
-                    <p>36. Yamamoto T†, <b>Nakayama J†</b>, Urabe F, Ito K, Nishida-Aoki N, Kitagawa M, Yokoi A, Kuroda M, Hattori Y, Yamamoto Y, Ochiya T. Aberrant regulation of serine metabolism drives extracellular vesicle release and cancer progression. <em><b>Cell Reports</b></em>. 2024 Aug 27;43(8):114517. <b>†Contributed Equally</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/39024098/" >PubMed</a></p>
-                    <p>35. Kuroiwa Y*, Ito K, <b>Nakayama J</b>, Semba K, Yamamoto Y*. Analysis of the responsiveness to antiandrogens in multiple breast cancer cell lines. <b><em>Genes to Cells</b></em>. 2024 Apr;29(4):301-315. <a href= "https://pubmed.ncbi.nlm.nih.gov/38366725/" >PubMed</a></p>
-                    <p>34. Murayama T, <b>Nakayama J</b>, Jiang X, Miyata K, Morris AD, Cai KQ, Prasad RM, Ma X, Efimov A, Belani N, Gerstein ER, Tan Y, Zhou Y, Kim W, Maruyama R, Campbell KS, Chen L, Yang Y, Balachandran S, Cañadas I*. Targeting DHX9 Triggers Tumor-Intrinsic Interferon Response and Replication Stress in Small Cell Lung Cancer. <b><em>Cancer Discovery</b></em>. 2024 Mar 1;14(3):468-491. <a href= "https://pubmed.ncbi.nlm.nih.gov/38189443/" >PubMed</a></p>
-                    <p>33. Ishibashi K, Ichinose T, Kadokawa R, Mizutani R, Iwabuchi S, Togi S, Ura H, Tange S, Shinjo K, <b>Nakayama J</b>, Nanjo S, Niida Y, Kondo Y, Hashimoto S, Sahai E, Yano S, Nakada M, Hirata E*. Astrocyte-induced mGluR1 activates human lung cancer brain metastasis via glutamate-dependent stabilization of EGFR. <b><em>Developmental Cell</b></em>. 2024 Mar 11;59(5):579-594.e6. <a href= "https://pubmed.ncbi.nlm.nih.gov/38309264/" >PubMed</a></p>
-                    <p>32. Nakamichi K, Yamamoto Y, Semba K*, <b>Nakayama J*</b>. Metastatic potentials classified with hypoxia-inducible factor 1 downstream genes in pan-cancer cell lines. <b><em>Genes to Cells</b></em>. 2024 Feb;29(2):169-177. <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/38158708/" >PubMed</a></p>
-                    <p>31. Yamaguchi K†, <b>Nakayama J†*</b>, Yamamoto T†, Semba K, Shirota T, Yamamoto Y*. Collagen induction of immune cells in the mammary glands during pregnancy. <b><em>Physiological Genomics</b></em>. 2024 Feb 1;56(2):128-135. <b>*Corresponding Author, †Contributed Equally</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/37955336/" >PubMed</a> <b>APS Select Award in Physiological Genomics</b>.</p>
-                    <p>30. Inoue C, Mukai K, Matsudaira T, <b>Nakayama J</b>, Kono N, Aoki J, Arai H, Uchida Y*, Taguchi T*. PPP1R12A is a recycling endosomal phosphatase that facilitates YAP activation. <em><b>Scientific Reports</b></em>. 2023 Nov 13;13(1):19740. <a href= "https://pubmed.ncbi.nlm.nih.gov/37957190/" >PubMed</a></p>
-                    <p>29. <b>Nakayama J*</b>, Yamamoto Y*. Cancer-prone Phenotypes and Gene Expression Heterogeneity at Single-cell Resolution in Cigarette-smoking Lungs. <em><b>Cancer Research Communicantions</b></em>. 2023 Nov 10;3(11):2280-2291. <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/37910161/" >PubMed</a></p>
-                    <p>28. Yokoi A*, Yoshida K, Koga H, Kitagawa M, Nagao Y, Iida M, Kawaguchi S, Zhang M, <b>Nakayama J</b>, Yamamoto Y, Baba Y, Kajiyama H, Yasui T*. Spatial exosome analysis using cellulose nanofiber sheets reveals the location heterogeneity of extracellular vesicles. <b><em>Nature Communications</b></em>. 2023 Nov 8;14(1):6915. <a href= "https://pubmed.ncbi.nlm.nih.gov/37938557/" >PubMed</a></p>
-                    <p>27. Ito K, Yamamoto T, Hayashi Y, Sato S, <b>Nakayama J</b>, Urabe F, Shimasaki T, Nakamura E, Matui Y, Fujimoto H, Kimura T, Egawa S, Ochiya T*, Yamamoto Y*. Osteoblast-derived extracellular vesicles exert osteoblastic and tumor-suppressive functions via SERPINA3 and LCN2 in prostate cancer. <b><em>Molecular Oncology</b></em>. 2023 Oct;17(10):2147-2167. <a href= "https://pubmed.ncbi.nlm.nih.gov/37408474/" >PubMed</a></p>
-                    <p>26. Shiino S*, Tokura M, <b>Nakayama J</b>, Yoshida M, Suto A, Yamamoto Y*. Investigation of Tumor Heterogeneity Using Integrated Single-Cell RNA Sequence Analysis to Focus on Genes Related to Breast Cancer-, EMT-, CSC-, and Metastasis-Related Markers in Patients with HER2-Positive Breast Cancer. <b><em>Cells</b></em>. 2023 Sep 15;12(18). <a href= "https://pubmed.ncbi.nlm.nih.gov/37759508/" >PubMed</a></p>
-                    <p>25. Han Y*, Katayama S, Futakuchi M, Nakamichi K, Wakabayashi Y, Sakamoto M, <b>Nakayama J*</b>, Semba K*. Targeting c-Jun Is a Potential Therapy for Luminal Breast Cancer Bone Metastasis. <b><em>Molecular Cancer Research</b></em>. 2023 Sep 1;21(9):908-921. <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/37310848/" >PubMed</a></p>
-                    <p>24. Yoshida K, Yokoi A*, Kitagawa M, Sugiyama M, Yamamoto T, <b>Nakayama J</b>, Yoshida H, Kato T, Kajiyama H, Yamamoto Y*. Downregulation of miR‑10b‑5p facilitates the proliferation of uterine leiomyosarcoma cells: A microRNA sequencing‑based approach. <b><em>Oncology Reports</b></em>. 2023 May;49(5). <a href= "https://pubmed.ncbi.nlm.nih.gov/36929268/" >PubMed</a></p>
-                    <p>23. Hayashi Y, <b>Nakayama J*</b>, Yamamoto M, Maekawa M, Watanabe S, Higashiyama S, Inoue JI, Yamamoto Y, Semba K*. Aberrant accumulation of NIK promotes tumor growth by dysregulating translation and post-translational modifications in breast cancer. <b><em>Cancer Cell International</b></em>. 2023 Apr 1;23(1):57. <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/37005661/" >PubMed</a></p>
-                    <p>22. Azuma K, Sakamoto M, Katayama S, Matsui A, Nakamichi K, Goshima N, Watanabe S, <b>Nakayama J*</b>, Semba K*. HOXB7 induces STAT3-mediated transformation and lung metastasis in immortalized mammary gland NMuMG cells. <b><em>Genes to Cells</b></em>. 2023 Apr;28(4):277-287. <a href= "https://pubmed.ncbi.nlm.nih.gov/36659836/" >PubMed</a></p>
-                    <p>21. Watanabe N†, Fujita Y†*, <b>Nakayama J†</b>, Mori Y, Kadota T, Hayashi Y, Shimomura I, Ohtsuka T, Okamoto K, Araya J, Kuwano K, Yamamoto Y*. Anomalous Epithelial Variations and Ectopic Inflammatory Response in Chronic Obstructive Pulmonary Disease. <b><em>American Journal of Respiratory Cell and Molecular Biology</b></em>. 2022 Dec;67(6):708-719. <b>†Contributed Equally</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/36108172/" >PubMed</a></p>
-                    <p>20. Tokura M†, <b>Nakayama J†</b>, Prieto-Vila M, Shiino S, Yoshida M, Yamamoto T, Watanabe N, Takayama S, Suzuki Y, Okamoto K, Ochiya T, Kohno T, Yatabe Y, Suto A, Yamamoto Y*. Single-Cell Transcriptome Profiling Reveals Intratumoral Heterogeneity and Molecular Features of Ductal Carcinoma In Situ. <b><em>Cancer Research</b></em>. 2022 Sep 16;82(18):3236-3248. <b>†Contributed Equally</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/35852797/" >PubMed</a></p>
-                    <p>19. <b>Nakayama J*</b>, Matsunaga H, Arikawa K, Yoda T, Hosokawa M, Takeyama H, Yamamoto Y, Semba K*. Identification of two cancer stem cell-like populations in triple-negative breast cancer xenografts. <b><em>Disease Models & Mechanisms</b></em>. 2022 Jun 1;15(6). <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/35611554/" >PubMed</a></p>
-                    <p>18. Han Y, Azuma K, Watanabe S, Semba K, <b>Nakayama J*</b>. Metastatic profiling of HER2-positive breast cancer cell lines in xenograft models. <b><em>Clinical & Experimental Metastasis</b></em>. 2022 Jun;39(3):467-477. <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/35103869/" >PubMed</a></p>
-                    <p>17. Yoshida K, Yokoi A*, Yamamoto T, Hayashi Y, <b>Nakayama J</b>, Yokoi T, Yoshida H, Kato T, Kajiyama H, Yamamoto Y*. Aberrant Activation of Cell-Cycle-Related Kinases and the Potential Therapeutic Impact of PLK1 or CHEK1 Inhibition in Uterine Leiomyosarcoma. <b><em>Clinical Cancer Research</b></em>. 2022 May 13;28(10):2147-2159. <a href= "https://pubmed.ncbi.nlm.nih.gov/35302600/" >PubMed</a></p>
-                    <p>16. Yamamoto T, <b>Nakayama J</b>, Yamamoto Y, Kuroda M, Hattori Y*, Ochiya T*. SORT1/LAMP2-mediated extracellular vesicle secretion and cell adhesion are linked to lenalidomide resistance in multiple myeloma. <b><em>Blood Advances</b></em>. 2022 Apr 26;6(8):2480-2495. <a href= "https://pubmed.ncbi.nlm.nih.gov/34979567/" >PubMed</a></p>
-                    <p>15. Ayukawa S, Kamoshita N†, <b>Nakayama J†</b>, Teramoto R, Pishesha N, Ohba K, Sato N, Kozawa K, Abe H, Semba K, Goda N, Fujita Y*, Maruyama T*. Epithelial cells remove precancerous cells by cell competition via MHC class I-LILRB3 interaction. <b><em>Nature Immunology</b></em>. 2021 Nov;22(11):1391-1402. <b>†Contributed Equally</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/34686865/" >PubMed</a></p>
-                    <p>14. Yogosawa S, Ohkido M, Horii T, Okazaki Y, <b>Nakayama J</b>, Yoshida S, Toyokuni S, Hatada I, Morimoto M, Yoshida K*. Mice lacking DYRK2 exhibit congenital malformations with lung hypoplasia and altered Foxf1 expression gradient. <b><em>Communications Biology</b></em>. 2021 Oct 20;4(1):1204. <a href= "https://pubmed.ncbi.nlm.nih.gov/34671097/" >PubMed</a></p>
-                    <p>13. Nishiyama K, Maekawa M*, Nakagita T, <b>Nakayama J</b>, Kiyoi T, Chosei M, Murakami A, Kamei Y, Takeda H, Takada Y, Higashiyama S*. CNKSR1 serves as a scaffold to activate an EGFR phosphatase via exclusive interaction with RhoB-GTP. <b><em>Life Science Alliance</b></em>. 2021 Sep;4(9). <a href= "https://pubmed.ncbi.nlm.nih.gov/34187934/" >PubMed</a></p>
-                    <p>12. <b>Nakayama J*</b>, Han Y, Kuroiwa Y, Azuma K, Yamamoto Y, Semba K. The In Vivo Selection Method in Breast Cancer Metastasis. <b><em>International Journal of Molecluar Sciences</b></em>. 2021 Feb 14;22(4). <b>*Corresponding Author</b>. <b>Review</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/33672831/" >PubMed</a></p>
-                    <p>11. Saito-Moriya R†*, <b>Nakayama J†</b>, Kamiya G, Kitada N, Obata R, Maki SA, Aoyama H. How to Select Firefly Luciferin Analogues for In Vivo Imaging. <b><em>International Journal of Molecluar Sciences</b></em>. 2021 Feb 12;22(4). <b>†Contributed Equally</b>. <b>Review</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/33673331/" >PubMed</a></p>
-                    <p>10. Yogosawa S, <b>Nakayama J</b>, Nishi M, Ryo A, Yoshida K*. Carbonic anhydrase 13 suppresses bone metastasis in breast cancer. <b><em>Cancer Treatment and Research Communications</b></em>. 2021;27:100332. <a href= "https://pubmed.ncbi.nlm.nih.gov/33588197/" >PubMed</a></p>
-                    <p>9. <b>Nakayama J†*</b>, Saito R†, Hayashi Y, Kitada N, Tamaki S, Han Y, Semba K, Maki SA. High Sensitivity In Vivo Imaging of Cancer Metastasis Using a Near-Infrared Luciferin Analogue seMpai. <b><em>International Journal of Molecluar Sciences</b></em>. 2020 Oct 24;21(21). <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/33114327/" >PubMed</a></p>
-                    <p>8. Kuroiwa Y, <b>Nakayama J*</b>, Adachi C, Inoue T, Watanabe S, Semba K. Proliferative Classification of Intracranially Injected HER2-positive Breast Cancer Cell Lines. <b><em>Cancers</b></em>. 2020 Jul 6;12(7). <b>*Corresponding Author</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/32640677/" >PubMed</a></p>
-                    <p>7. Han Y†, <b>Nakayama J†*</b>, Hayashi Y, Jeong S, Futakuchi M, Ito E, Watanabe S, Semba K. Establishment and characterization of highly osteolytic luminal breast cancer cell lines by intracaudal arterial injection. <b><em>Genes to Cells</b></em>. 2020 Feb;25(2):111-123). <b>*Corresponding Author, †Contributed Equally</b>. <a href= "https://pubmed.ncbi.nlm.nih.gov/31849141/" >PubMed</a> <b>Top Cited Article Award 2020-2021</b>.</p> 
-                    <p>6. Tanaka M*, Shiota M, Koyama M, <b>Nakayama J</b>, Yashiro M, Semba K, Goda N. Generation of Rat Monoclonal Antibodies Specific for Human Stromal Cell-Derived Factor-2. <b><em>Monoclonal Antibodies in Immunodiagnosis and Immunotherapy</b></em>. 2020 Feb;39(1):23-26. <a href= "https://pubmed.ncbi.nlm.nih.gov/31916900/" >PubMed</a></p>
-                    <p>5. Maekawa M*, Hiyoshi H, <b>Nakayama J</b>, Kido K, Sawasaki T, Semba K, Kubota E, Joh T, Higashiyama S*. Cullin-3/KCTD10 complex is essential for K27-polyubiquitination of EIF3D in human hepatocellular carcinoma HepG2 cells. <b><em>Biochemical and Biophysical Research Communications</b></em>. 2019 Sep 3;516(4):1116-1122. <a href= "https://pubmed.ncbi.nlm.nih.gov/31280863/" >PubMed</a></p>
-                    <p>4. Tanigawa K, Maekawa M*, Kiyoi T, <b>Nakayama J</b>, Kitazawa R, Kitazawa S, Semba K, Taguchi T, Akita S, Yoshida M, Ishimaru K, Watanabe Y, Higashiyama S*. SNX9 determines the surface levels of integrin β1 in vascular endothelial cells: Implication in poor prognosis of human colorectal cancers overexpressing SNX9. <b><em>Journal of Cellular Physiology</b></em>. 2019 Aug;234(10):17280-17294. <a href= "https://pubmed.ncbi.nlm.nih.gov/30784076/" >PubMed</a></p>
-                    <p>3. Murakami A, Maekawa M*, Kawai K, <b>Nakayama J</b>, Araki N, Semba K, Taguchi T, Kamei Y, Takada Y, Higashiyama S*. Cullin-3/KCTD10 E3 complex is essential for Rac1 activation through RhoB degradation in human epidermal growth factor receptor 2-positive breast cancer cells. <em><b>Cancer Science</b></em>. 2019 Feb;110(2):650-661. <a href= "https://pubmed.ncbi.nlm.nih.gov/30515933/" >PubMed</a></p>
-                    <p>2. Matsudaira T, Mukai K, Noguchi T, Hasegawa J, Hatta T, Iemura SI, Natsume T, Miyamura N, Nishina H, <b>Nakayama J</b>, Semba K, Tomita T, Murata S, Arai H, Taguchi T*. Endosomal phosphatidylserine is critical for the YAP signalling pathway in proliferating cells. <b><em>Nature Communications</b></em>. 2017 Nov 1;8(1):1246. <a href= "https://pubmed.ncbi.nlm.nih.gov/29093443/" >PubMed</a></p>
-                    <p>1. <b>Nakayama J</b>, Ito E, Fujimoto J, Watanabe S, Semba K*. Comparative analysis of gene regulatory networks of highly metastatic breast cancer cells established by orthotopic transplantation and intra-circulation injection. <b><em>Internaional Journal of Oncology</b></em>. 2017 Feb;50(2):497-504. <a href= "https://pubmed.ncbi.nlm.nih.gov/28000849/" >PubMed</a></p>
-                    <p>　　</p>
+        <li class="pub-item">
+          Yoshida K, Yokoi A*, Suzuki H, Tamauchi S, Kitagawa M, Inami E, <strong>Nakayama J</strong>, Mori Y, Okamoto K, Suzuki Y, Yoshida H, Kato T, Kajiyama H, Yamamoto Y*. Single-Nucleus RNA Sequencing and Spatial Transcriptomics for Squamous Cell Carcinoma Arising From Ovarian Mature Teratoma. <strong><em>Cancer Science</em></strong>. 2025 May;116(5):1339–1351.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/39948701/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-                    <h3 class="mb-5">Books</h3>
-                    <p>2. <B>実験医学別冊 論文に出る遺伝子 デルジーン300 PubMed論文の登場回数順にヒト遺伝子のエッセンスを一望</B>, 中山 淳 (担当:分担執筆), 羊土社 2024年12月 (ISBN: 9784758122771).</p>
-                    <p>1. <B>実験医学別冊 RNA-Seqデータ解析 : WETラボのための超鉄板レシピ : ヒトから非モデル生物まで公共データの活用も充実</B>, 中山 淳, 山本 雄介 (担当:分担執筆, 範囲:コラム バルク解析とシングルセル解析), 羊土社 2023年10月 (ISBN: 9784758122672).</p>
-                </div>
-            </section>
-            <hr class="m-0" />
+        <li class="pub-item">
+          Weisheng Z, <strong>Nakayama J</strong>, Inomata Y, Higashiyama S, Hiratsuka T*. A sensitive ERK fluorescent probe reveals the significance of minimal EGF-induced transcription. <strong><em>Cell Structure and Function</em></strong>. 2025 Feb 7;50(1):15–24.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/39694501/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-            <!-- Links-->
-            <section class="resume-section" id="Links">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Links</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                          <p><a href= "https://ganken.cri.kanazawa-u.ac.jp/" >金沢大学がん進展制御研究所</a></p>
-                          <p><a href= "https://www.kanazawa-u.ac.jp/" >金沢大学</a></p>
-                          <p>　　</p>
-                        </li>
-                    </ul>
-                    <div class="subheading mb-4">Collaborators</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                          <p><a href= "https://oici.jp/laboratory/department/saibou/" >大阪国際がんセンター研究所 腫瘍増殖制御学部</a></p>
-                          <p><a href= "https://www.ncc.go.jp/jp/ri/division/integrative_oncology/index.html" >国立がん研究センター研究所 病態情報学ユニット</a></p>
-                          <p><a href= "https://www.lsmb.sci.waseda.ac.jp/" >早稲田大学 先進理工学部 生命医科学科</a></p>
-                          <p><a href= "https://nagoya-u-obgy.jp/" >名古屋大学医学部 産婦人科</a></p>
-                          <p><a href= "https://www.keio-nano.jp/" >慶應義塾大学薬学部 創薬研究センター ナノ医薬・分野横断遺伝学講座</a></p>
-                          <p><a href= "https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=45407" >東北大学大学院 生命科学研究科 細胞小器官疾患学 分野</a></p>
-                          <p><a href= "https://take-sakamoto-lab.jimdosite.com/" >関西医科大学 附属生命医学研究所 がん生物学部門</a></p>
-                          <p><a href= "https://www.keio-yakuchi.jp/" >慶應義塾大学薬学部 薬物治療学講座</a></p>
-                          <p><a href= "https://www.pros.ehime-u.ac.jp/" >愛媛大学 プロテオサイエンスセンター</a></p>
-                          <p><a href= "https://www.tcbb-kucri.org/" >金沢大学がん進展制御研究所 腫瘍細胞生物学研究分野</a></p>
-                          <p><a href= "https://r-maruyama-lab.github.io/index.html" >がん研究会 がん研究所 がんエピゲノム研究部</a></p>
-                          <p><a href= "https://jikei-biochem.wixsite.com/yoshidalab" >東京慈恵会医科大学 生化学講座</a></p>
-                          <p><a href= "https://www.id.yamagata-u.ac.jp/PathoI/" >山形大学医学部病理学講座（病理診断学講座）</a></p>
-                          <p><a href= "https://www.med.kindai.ac.jp/patho/" >近畿大学医学部病理学講座</a></p>
-                          <p><a href= "https://sites.google.com/view/murayamalab/home?authuser=0" >SUNY Downstate Health Sciences University, Murayama LAB</a></p>
-                          <p><a href= "https://www.canadas-lab.com/" >Fox Chase Cancer Center, CAÑADAS LAB</a></p>
-                          <p>　　</p>
-                        </li>
-                    </ul>
-                    <div class="subheading mb-4">Research Society</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                          <p><a href= "https://www.metastasis-signaling.com/" >転移シグナル若手研究会</a></p>
+        <li class="pub-item">
+          Nakamichi K, Suzuki H, Yamamoto Y, Semba K, <strong>Nakayama J*</strong>. Nuclear receptor profiling for subtype classification and as prognostic markers in 33 cancer types. <strong><em>Discover Oncology</em></strong>. 2024 Dec 24;15(1):834. <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/39715959/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
 
-                        </li>
-                    </ul>
-                </div>
-                </div>
-            </section>
-           </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
-  <footer>
-　   <p>&copy;    Copyright © 2025 Cell Signaling and Informatics. All Rights Reserved.</p> 
+        <li class="pub-item">
+          Murayama T, Mahadevan NR, Meador CB, Ivanova EV, Pan Y, Knelson EH, Tani T, <strong>Nakayama J</strong>, Ma X, Thai TC, Hung YP, Kim W, Watanabe H, Cai KQ, Hata AN, Paweletz CP, Barbie DA, Cañadas I*. Targeting TREX1 Induces Innate Immune Response in Drug-Resistant Small-Cell Lung Cancer. <strong><em>Cancer Research Communications</em></strong>. 2024 Sep 1;4(9):2399–2414.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/39177280/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Yamamoto T†, <strong>Nakayama J†</strong>, Urabe F, Ito K, Nishida-Aoki N, Kitagawa M, Yokoi A, Kuroda M, Hattori Y, Yamamoto Y, Ochiya T. Aberrant regulation of serine metabolism drives extracellular vesicle release and cancer progression. <strong><em>Cell Reports</em></strong>. 2024 Aug 27;43(8):114517. <span class="pub-equal">†Contributed Equally</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/39024098/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Kuroiwa Y*, Ito K, <strong>Nakayama J</strong>, Semba K, Yamamoto Y*. Analysis of the responsiveness to antiandrogens in multiple breast cancer cell lines. <strong><em>Genes to Cells</em></strong>. 2024 Apr;29(4):301–315.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/38366725/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Murayama T, <strong>Nakayama J</strong>, Jiang X, Miyata K, Morris AD, Cai KQ, Prasad RM, Ma X, Efimov A, Belani N, Gerstein ER, Tan Y, Zhou Y, Kim W, Maruyama R, Campbell KS, Chen L, Yang Y, Balachandran S, Cañadas I*. Targeting DHX9 Triggers Tumor-Intrinsic Interferon Response and Replication Stress in Small Cell Lung Cancer. <strong><em>Cancer Discovery</em></strong>. 2024 Mar 1;14(3):468–491.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/38189443/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Ishibashi K, Ichinose T, Kadokawa R, Mizutani R, Iwabuchi S, Togi S, Ura H, Tange S, Shinjo K, <strong>Nakayama J</strong>, Nanjo S, Niida Y, Kondo Y, Hashimoto S, Sahai E, Yano S, Nakada M, Hirata E*. Astrocyte-induced mGluR1 activates human lung cancer brain metastasis via glutamate-dependent stabilization of EGFR. <strong><em>Developmental Cell</em></strong>. 2024 Mar 11;59(5):579–594.e6.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/38309264/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Nakamichi K, Yamamoto Y, Semba K*, <strong>Nakayama J*</strong>. Metastatic potentials classified with hypoxia-inducible factor 1 downstream genes in pan-cancer cell lines. <strong><em>Genes to Cells</em></strong>. 2024 Feb;29(2):169–177. <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/38158708/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Yamaguchi K†, <strong>Nakayama J†*</strong>, Yamamoto T†, Semba K, Shirota T, Yamamoto Y*. Collagen induction of immune cells in the mammary glands during pregnancy. <strong><em>Physiological Genomics</em></strong>. 2024 Feb 1;56(2):128–135. <span class="pub-ca">*Corresponding Author, †Contributed Equally</span> <span class="pub-award">APS Select Award in Physiological Genomics</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/37955336/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Inoue C, Mukai K, Matsudaira T, <strong>Nakayama J</strong>, Kono N, Aoki J, Arai H, Uchida Y*, Taguchi T*. PPP1R12A is a recycling endosomal phosphatase that facilitates YAP activation. <strong><em>Scientific Reports</em></strong>. 2023 Nov 13;13(1):19740.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/37957190/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          <strong>Nakayama J*</strong>, Yamamoto Y*. Cancer-prone Phenotypes and Gene Expression Heterogeneity at Single-cell Resolution in Cigarette-smoking Lungs. <strong><em>Cancer Research Communications</em></strong>. 2023 Nov 10;3(11):2280–2291. <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/37910161/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Yokoi A*, Yoshida K, Koga H, Kitagawa M, Nagao Y, Iida M, Kawaguchi S, Zhang M, <strong>Nakayama J</strong>, Yamamoto Y, Baba Y, Kajiyama H, Yasui T*. Spatial exosome analysis using cellulose nanofiber sheets reveals the location heterogeneity of extracellular vesicles. <strong><em>Nature Communications</em></strong>. 2023 Nov 8;14(1):6915.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/37938557/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Ito K, Yamamoto T, Hayashi Y, Sato S, <strong>Nakayama J</strong>, Urabe F, Shimasaki T, Nakamura E, Matui Y, Fujimoto H, Kimura T, Egawa S, Ochiya T*, Yamamoto Y*. Osteoblast-derived extracellular vesicles exert osteoblastic and tumor-suppressive functions via SERPINA3 and LCN2 in prostate cancer. <strong><em>Molecular Oncology</em></strong>. 2023 Oct;17(10):2147–2167.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/37408474/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Shiino S*, Tokura M, <strong>Nakayama J</strong>, Yoshida M, Suto A, Yamamoto Y*. Investigation of Tumor Heterogeneity Using Integrated Single-Cell RNA Sequence Analysis to Focus on Genes Related to Breast Cancer-, EMT-, CSC-, and Metastasis-Related Markers in Patients with HER2-Positive Breast Cancer. <strong><em>Cells</em></strong>. 2023 Sep 15;12(18).
+          <a href="https://pubmed.ncbi.nlm.nih.gov/37759508/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Han Y*, Katayama S, Futakuchi M, Nakamichi K, Wakabayashi Y, Sakamoto M, <strong>Nakayama J*</strong>, Semba K*. Targeting c-Jun Is a Potential Therapy for Luminal Breast Cancer Bone Metastasis. <strong><em>Molecular Cancer Research</em></strong>. 2023 Sep 1;21(9):908–921. <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/37310848/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Yoshida K, Yokoi A*, Kitagawa M, Sugiyama M, Yamamoto T, <strong>Nakayama J</strong>, Yoshida H, Kato T, Kajiyama H, Yamamoto Y*. Downregulation of miR-10b-5p facilitates the proliferation of uterine leiomyosarcoma cells: A microRNA sequencing-based approach. <strong><em>Oncology Reports</em></strong>. 2023 May;49(5).
+          <a href="https://pubmed.ncbi.nlm.nih.gov/36929268/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Hayashi Y, <strong>Nakayama J*</strong>, Yamamoto M, Maekawa M, Watanabe S, Higashiyama S, Inoue JI, Yamamoto Y, Semba K*. Aberrant accumulation of NIK promotes tumor growth by dysregulating translation and post-translational modifications in breast cancer. <strong><em>Cancer Cell International</em></strong>. 2023 Apr 1;23(1):57. <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/37005661/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Azuma K, Sakamoto M, Katayama S, Matsui A, Nakamichi K, Goshima N, Watanabe S, <strong>Nakayama J*</strong>, Semba K*. HOXB7 induces STAT3-mediated transformation and lung metastasis in immortalized mammary gland NMuMG cells. <strong><em>Genes to Cells</em></strong>. 2023 Apr;28(4):277–287.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/36659836/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Watanabe N†, Fujita Y†*, <strong>Nakayama J†</strong>, Mori Y, Kadota T, Hayashi Y, Shimomura I, Ohtsuka T, Okamoto K, Araya J, Kuwano K, Yamamoto Y*. Anomalous Epithelial Variations and Ectopic Inflammatory Response in Chronic Obstructive Pulmonary Disease. <strong><em>American Journal of Respiratory Cell and Molecular Biology</em></strong>. 2022 Dec;67(6):708–719. <span class="pub-equal">†Contributed Equally</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/36108172/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Tokura M†, <strong>Nakayama J†</strong>, Prieto-Vila M, Shiino S, Yoshida M, Yamamoto T, Watanabe N, Takayama S, Suzuki Y, Okamoto K, Ochiya T, Kohno T, Yatabe Y, Suto A, Yamamoto Y*. Single-Cell Transcriptome Profiling Reveals Intratumoral Heterogeneity and Molecular Features of Ductal Carcinoma In Situ. <strong><em>Cancer Research</em></strong>. 2022 Sep 16;82(18):3236–3248. <span class="pub-equal">†Contributed Equally</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/35852797/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          <strong>Nakayama J*</strong>, Matsunaga H, Arikawa K, Yoda T, Hosokawa M, Takeyama H, Yamamoto Y, Semba K*. Identification of two cancer stem cell-like populations in triple-negative breast cancer xenografts. <strong><em>Disease Models &amp; Mechanisms</em></strong>. 2022 Jun 1;15(6). <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/35611554/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Han Y, Azuma K, Watanabe S, Semba K, <strong>Nakayama J*</strong>. Metastatic profiling of HER2-positive breast cancer cell lines in xenograft models. <strong><em>Clinical &amp; Experimental Metastasis</em></strong>. 2022 Jun;39(3):467–477. <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/35103869/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Yoshida K, Yokoi A*, Yamamoto T, Hayashi Y, <strong>Nakayama J</strong>, Yokoi T, Yoshida H, Kato T, Kajiyama H, Yamamoto Y*. Aberrant Activation of Cell-Cycle-Related Kinases and the Potential Therapeutic Impact of PLK1 or CHEK1 Inhibition in Uterine Leiomyosarcoma. <strong><em>Clinical Cancer Research</em></strong>. 2022 May 13;28(10):2147–2159.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/35302600/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Yamamoto T, <strong>Nakayama J</strong>, Yamamoto Y, Kuroda M, Hattori Y*, Ochiya T*. SORT1/LAMP2-mediated extracellular vesicle secretion and cell adhesion are linked to lenalidomide resistance in multiple myeloma. <strong><em>Blood Advances</em></strong>. 2022 Apr 26;6(8):2480–2495.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/34979567/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Ayukawa S, Kamoshita N†, <strong>Nakayama J†</strong>, Teramoto R, Pishesha N, Ohba K, Sato N, Kozawa K, Abe H, Semba K, Goda N, Fujita Y*, Maruyama T*. Epithelial cells remove precancerous cells by cell competition via MHC class I-LILRB3 interaction. <strong><em>Nature Immunology</em></strong>. 2021 Nov;22(11):1391–1402. <span class="pub-equal">†Contributed Equally</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/34686865/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Yogosawa S, Ohkido M, Horii T, Okazaki Y, <strong>Nakayama J</strong>, Yoshida S, Toyokuni S, Hatada I, Morimoto M, Yoshida K*. Mice lacking DYRK2 exhibit congenital malformations with lung hypoplasia and altered Foxf1 expression gradient. <strong><em>Communications Biology</em></strong>. 2021 Oct 20;4(1):1204.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/34671097/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Nishiyama K, Maekawa M*, Nakagita T, <strong>Nakayama J</strong>, Kiyoi T, Chosei M, Murakami A, Kamei Y, Takeda H, Takada Y, Higashiyama S*. CNKSR1 serves as a scaffold to activate an EGFR phosphatase via exclusive interaction with RhoB-GTP. <strong><em>Life Science Alliance</em></strong>. 2021 Sep;4(9).
+          <a href="https://pubmed.ncbi.nlm.nih.gov/34187934/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          <strong>Nakayama J*</strong>, Han Y, Kuroiwa Y, Azuma K, Yamamoto Y, Semba K. The In Vivo Selection Method in Breast Cancer Metastasis. <strong><em>International Journal of Molecular Sciences</em></strong>. 2021 Feb 14;22(4). <span class="pub-review">Review</span> <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/33672831/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Saito-Moriya R†*, <strong>Nakayama J†</strong>, Kamiya G, Kitada N, Obata R, Maki SA, Aoyama H. How to Select Firefly Luciferin Analogues for In Vivo Imaging. <strong><em>International Journal of Molecular Sciences</em></strong>. 2021 Feb 12;22(4). <span class="pub-review">Review</span> <span class="pub-equal">†Contributed Equally</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/33673331/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Yogosawa S, <strong>Nakayama J</strong>, Nishi M, Ryo A, Yoshida K*. Carbonic anhydrase 13 suppresses bone metastasis in breast cancer. <strong><em>Cancer Treatment and Research Communications</em></strong>. 2021;27:100332.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/33588197/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          <strong>Nakayama J†*</strong>, Saito R†, Hayashi Y, Kitada N, Tamaki S, Han Y, Semba K, Maki SA. High Sensitivity In Vivo Imaging of Cancer Metastasis Using a Near-Infrared Luciferin Analogue seMpai. <strong><em>International Journal of Molecular Sciences</em></strong>. 2020 Oct 24;21(21). <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/33114327/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Kuroiwa Y, <strong>Nakayama J*</strong>, Adachi C, Inoue T, Watanabe S, Semba K. Proliferative Classification of Intracranially Injected HER2-positive Breast Cancer Cell Lines. <strong><em>Cancers</em></strong>. 2020 Jul 6;12(7). <span class="pub-ca">*Corresponding Author</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/32640677/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Han Y†, <strong>Nakayama J†*</strong>, Hayashi Y, Jeong S, Futakuchi M, Ito E, Watanabe S, Semba K. Establishment and characterization of highly osteolytic luminal breast cancer cell lines by intracaudal arterial injection. <strong><em>Genes to Cells</em></strong>. 2020 Feb;25(2):111–123. <span class="pub-ca">*Corresponding Author, †Contributed Equally</span> <span class="pub-award">Top Cited Article Award 2020–2021</span>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/31849141/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Tanaka M*, Shiota M, Koyama M, <strong>Nakayama J</strong>, Yashiro M, Semba K, Goda N. Generation of Rat Monoclonal Antibodies Specific for Human Stromal Cell-Derived Factor-2. <strong><em>Monoclonal Antibodies in Immunodiagnosis and Immunotherapy</em></strong>. 2020 Feb;39(1):23–26.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/31916900/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Maekawa M*, Hiyoshi H, <strong>Nakayama J</strong>, Kido K, Sawasaki T, Semba K, Kubota E, Joh T, Higashiyama S*. Cullin-3/KCTD10 complex is essential for K27-polyubiquitination of EIF3D in human hepatocellular carcinoma HepG2 cells. <strong><em>Biochemical and Biophysical Research Communications</em></strong>. 2019 Sep 3;516(4):1116–1122.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/31280863/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Tanigawa K, Maekawa M*, Kiyoi T, <strong>Nakayama J</strong>, Kitazawa R, Kitazawa S, Semba K, Taguchi T, Akita S, Yoshida M, Ishimaru K, Watanabe Y, Higashiyama S*. SNX9 determines the surface levels of integrin β1 in vascular endothelial cells: Implication in poor prognosis of human colorectal cancers overexpressing SNX9. <strong><em>Journal of Cellular Physiology</em></strong>. 2019 Aug;234(10):17280–17294.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/30784076/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Murakami A, Maekawa M*, Kawai K, <strong>Nakayama J</strong>, Araki N, Semba K, Taguchi T, Kamei Y, Takada Y, Higashiyama S*. Cullin-3/KCTD10 E3 complex is essential for Rac1 activation through RhoB degradation in human epidermal growth factor receptor 2-positive breast cancer cells. <strong><em>Cancer Science</em></strong>. 2019 Feb;110(2):650–661.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/30515933/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          Matsudaira T, Mukai K, Noguchi T, Hasegawa J, Hatta T, Iemura SI, Natsume T, Miyamura N, Nishina H, <strong>Nakayama J</strong>, Semba K, Tomita T, Murata S, Arai H, Taguchi T*. Endosomal phosphatidylserine is critical for the YAP signalling pathway in proliferating cells. <strong><em>Nature Communications</em></strong>. 2017 Nov 1;8(1):1246.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/29093443/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+        <li class="pub-item">
+          <strong>Nakayama J</strong>, Ito E, Fujimoto J, Watanabe S, Semba K*. Comparative analysis of gene regulatory networks of highly metastatic breast cancer cells established by orthotopic transplantation and intra-circulation injection. <strong><em>International Journal of Oncology</em></strong>. 2017 Feb;50(2):497–504.
+          <a href="https://pubmed.ncbi.nlm.nih.gov/28000849/" target="_blank" rel="noopener" class="pub-link">PubMed</a>
+        </li>
+
+      </ol>
+
+      <h3 class="pub-subhead" style="margin-top: 2.5rem;">書籍</h3>
+      <ol class="pub-list" reversed>
+        <li class="pub-item">
+          <strong>実験医学別冊 論文に出る遺伝子 デルジーン300</strong>. <strong>中山 淳</strong>（分担執筆）, 羊土社, 2024年12月. ISBN: 9784758122771.
+        </li>
+        <li class="pub-item">
+          <strong>実験医学別冊 RNA-Seqデータ解析 WETラボのための超鉄板レシピ</strong>. <strong>中山 淳</strong>, 山本 雄介（分担執筆, コラム バルク解析とシングルセル解析）, 羊土社, 2023年10月. ISBN: 9784758122672.
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== JOIN / RECRUIT ========== -->
+  <section class="section section-alt" id="join">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Join Us</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="recruit-box">
+        <h2 class="recruit-title">大学院生・研究員 募集中</h2>
+        <p class="recruit-desc">WET実験とDRY解析の両方の技術・能力を身につけ、細胞のやり取りを理解し、がんの克服を目指します。意欲ある大学院生・研究者を随時受け入れています。日本学術振興会特別研究員の申請書作成もサポートします。</p>
+        <div class="recruit-tags">
+          <span class="recruit-tag">修士課程</span>
+          <span class="recruit-tag">博士課程</span>
+          <span class="recruit-tag">医師（M.D.）</span>
+          <span class="recruit-tag">博士研究員（PD）</span>
+          <span class="recruit-tag">企業共同研究</span>
+        </div>
+        <p class="recruit-note">アカデミア共同研究・企業共同研究の受け入れも随時行っております。お気軽にご連絡ください。</p>
+        <a href="mailto:jnakayama@staff.kanazawa-u.ac.jp" class="recruit-btn">メールで問い合わせ →</a>
+        <p class="recruit-address">〒920-8640 石川県金沢市宝町13-1 金沢大学がん進展制御研究所 細胞情報学研究分野</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LINKS ========== -->
+  <section class="section" id="links">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Links</span>
+        <div class="section-line"></div>
+      </div>
+      <h2 class="section-title">関連リンク</h2>
+
+      <h3 class="links-subhead">所属機関</h3>
+      <div class="links-grid">
+        <a href="https://ganken.cri.kanazawa-u.ac.jp/" target="_blank" rel="noopener" class="link-card">金沢大学がん進展制御研究所</a>
+        <a href="https://www.kanazawa-u.ac.jp/" target="_blank" rel="noopener" class="link-card">金沢大学</a>
+      </div>
+
+      <h3 class="links-subhead">共同研究機関</h3>
+      <div class="links-grid">
+        <a href="https://oici.jp/laboratory/department/saibou/" target="_blank" rel="noopener" class="link-card">大阪国際がんセンター研究所 腫瘍増殖制御学部</a>
+        <a href="https://www.ncc.go.jp/jp/ri/division/integrative_oncology/index.html" target="_blank" rel="noopener" class="link-card">国立がん研究センター研究所 病態情報学ユニット</a>
+        <a href="https://www.lsmb.sci.waseda.ac.jp/" target="_blank" rel="noopener" class="link-card">早稲田大学 先進理工学部 生命医科学科</a>
+        <a href="https://nagoya-u-obgy.jp/" target="_blank" rel="noopener" class="link-card">名古屋大学医学部 産婦人科</a>
+        <a href="https://www.keio-nano.jp/" target="_blank" rel="noopener" class="link-card">慶應義塾大学薬学部 ナノ医薬・分野横断遺伝学講座</a>
+        <a href="https://www.lifesci.tohoku.ac.jp/research/fields/laboratory.html?id=45407" target="_blank" rel="noopener" class="link-card">東北大学大学院 細胞小器官疾患学分野</a>
+        <a href="https://take-sakamoto-lab.jimdosite.com/" target="_blank" rel="noopener" class="link-card">関西医科大学 がん生物学部門</a>
+        <a href="https://www.keio-yakuchi.jp/" target="_blank" rel="noopener" class="link-card">慶應義塾大学薬学部 薬物治療学講座</a>
+        <a href="https://www.pros.ehime-u.ac.jp/" target="_blank" rel="noopener" class="link-card">愛媛大学 プロテオサイエンスセンター</a>
+        <a href="https://www.tcbb-kucri.org/" target="_blank" rel="noopener" class="link-card">金沢大学 腫瘍細胞生物学研究分野</a>
+        <a href="https://r-maruyama-lab.github.io/index.html" target="_blank" rel="noopener" class="link-card">がん研究会 がん研究所 がんエピゲノム研究部</a>
+        <a href="https://jikei-biochem.wixsite.com/yoshidalab" target="_blank" rel="noopener" class="link-card">東京慈恵会医科大学 生化学講座</a>
+        <a href="https://www.id.yamagata-u.ac.jp/PathoI/" target="_blank" rel="noopener" class="link-card">山形大学医学部病理学講座</a>
+        <a href="https://www.med.kindai.ac.jp/patho/" target="_blank" rel="noopener" class="link-card">近畿大学医学部病理学講座</a>
+        <a href="https://sites.google.com/view/murayamalab/home" target="_blank" rel="noopener" class="link-card">SUNY Downstate — Murayama Lab</a>
+        <a href="https://www.canadas-lab.com/" target="_blank" rel="noopener" class="link-card">Fox Chase Cancer Center — Cañadas Lab</a>
+      </div>
+
+      <h3 class="links-subhead">研究会・学会</h3>
+      <div class="links-grid">
+        <a href="https://www.metastasis-signaling.com/" target="_blank" rel="noopener" class="link-card">転移シグナル若手研究会</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <p class="footer-name">Division of Cell Signaling and Informatics, Cancer Research Institute, Kanazawa University — Nakayama Lab</p>
+        <p class="footer-inst">金沢大学がん進展制御研究所 細胞情報学研究分野</p>
+        <p class="footer-addr">〒920-8640 石川県金沢市宝町13-1</p>
+        <p class="footer-email"><a href="mailto:jnakayama@staff.kanazawa-u.ac.jp">jnakayama[at]staff.kanazawa-u.ac.jp</a></p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#member">Member</a>
+        <a href="#publications">Publications</a>
+        <a href="#links">Links</a>
+      </nav>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2025 Cell Signaling and Informatics, Kanazawa University. All Rights Reserved.</p>
+    </div>
   </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>

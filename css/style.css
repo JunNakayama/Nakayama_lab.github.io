@@ -825,10 +825,10 @@ em.news-journal {
   border-bottom: 0.5px solid var(--gray-200);
 }
 
-
+/*counterの数値には、実際の数+1の数値を代入する*/
 .pub-list {
   list-style: none;
-  counter-reset: pub-counter 50;
+  counter-reset: pub-counter 50; 
   display: flex;
   flex-direction: column;
   gap: 0;

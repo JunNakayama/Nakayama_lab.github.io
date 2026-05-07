@@ -879,7 +879,7 @@ em.news-journal {
 }
 .pub-item-book:last-child { border-bottom: none; }
 .pub-item-book::before {
-  content: counter(pub-counter);
+  content: counter(pub-counter-book);
   position: absolute;
   left: 0;
   top: 0.875rem;

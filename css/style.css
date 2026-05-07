@@ -836,7 +836,7 @@ em.news-journal {
 
 .pub-list-book {
   list-style: none;
-  counter-reset: pub-counter 2;
+  counter-reset: pub-counter-book 2;
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -869,7 +869,7 @@ em.news-journal {
 
 
 .pub-item-book {
-  counter-increment: pub-counter -1;
+  counter-increment: pub-counter-book -1;
   position: relative;
   padding: 0.875rem 0 0.875rem 2.75rem;
   font-size: 13px;

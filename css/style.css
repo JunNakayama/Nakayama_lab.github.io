@@ -830,6 +830,7 @@ em.news-journal {
   list-style: none;
   counter-reset: pub-counter 49;
   display: flex;
+  content: counter(pub-counter) ". "
   flex-direction: column;
   gap: 0;
 }
@@ -838,6 +839,7 @@ em.news-journal {
   list-style: none;
   counter-reset: pub-counter-book 2;
   display: flex;
+  content: counter(pub-counter-book) ". "
   flex-direction: column;
   gap: 0;
 }

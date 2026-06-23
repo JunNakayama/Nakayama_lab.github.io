@@ -828,7 +828,7 @@ em.news-journal {
 /*counterの数値には、実際の数+1の数値を代入する*/
 .pub-list {
   list-style: none;
-  counter-reset: pub-counter 50; 
+  counter-reset: pub-counter 51; 
   display: flex;
   flex-direction: column;
   gap: 0;

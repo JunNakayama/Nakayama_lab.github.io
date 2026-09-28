@@ -137,6 +137,10 @@
         overflow: hidden;
         border: 0.5px solid var(--gray-200);
     }
+    document.querySelectorAll('.year-group').forEach(function (group) {
+  if (group.hasAttribute('data-album')) return;   // ← この1行を追加
+  const year = group.dataset.year;
+  ...
   </style>
 </head>
 <body>

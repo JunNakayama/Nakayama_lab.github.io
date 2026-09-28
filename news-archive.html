@@ -137,10 +137,6 @@
         overflow: hidden;
         border: 0.5px solid var(--gray-200);
     }
-    document.querySelectorAll('.year-group').forEach(function (group) {
-      if (group.hasAttribute('data-album')) return; 
-      const year = group.dataset.year;
-    }
   </style>
 </head>
 <body>
@@ -813,13 +809,8 @@
 
       function updateCounts() {
         document.querySelectorAll('.year-group').forEach(function (group) {
+          if (group.hasAttribute('data-album')) return;   // ← 追加
           const year    = group.dataset.year;
-          const visible = group.querySelectorAll('.news-item:not(.hidden)').length;
-          const countEl = document.getElementById('count-' + year);
-          if (countEl) countEl.textContent = visible > 0 ? visible + '件' : '';
-          group.style.display = visible === 0 ? 'none' : '';
-        });
-
         const totalVisible = document.querySelectorAll('.news-item:not(.hidden)').length;
         empty.classList.toggle('visible', totalVisible === 0);
       }
